@@ -45,17 +45,17 @@ public class SoundManager : Singleton<SoundManager>
 		this.setting.SoundChange(this.soundSetting.sound);
 	}
 
-	public void MusicChange()
+	public void MusicChange(bool value)
 	{
-		this.soundSetting.music = !this.soundSetting.music;
-		this.musicSource.mute = this.soundSetting.music;
+		this.soundSetting.music = value;
+		this.musicSource.mute = !value;
 		this.setting.MusicChange(this.soundSetting.music);
 	}
 
-	public void SoundChange()
+	public void SoundChange(bool value)
 	{
-		this.soundSetting.sound = !this.soundSetting.sound;
-		this.soundSource.mute = this.soundSetting.sound;
+		this.soundSetting.sound = value;
+		this.soundSource.mute = !value;
 		this.setting.SoundChange(this.soundSetting.sound);
 	}
 
