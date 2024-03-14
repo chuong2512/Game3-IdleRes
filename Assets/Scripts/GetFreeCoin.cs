@@ -47,12 +47,7 @@ public class GetFreeCoin : MonoBehaviour
 			switch (num)
 			{
 			case 0u:
-				this._www___0 = new WWW("http://mega.ikame.vn/index.php?index=get_time");
-				this._current = this._www___0;
-				if (!this._disposing)
-				{
-					this._PC = 1;
-				}
+				
 				return true;
 			case 1u:
 				if (this._www___0.error == null)
