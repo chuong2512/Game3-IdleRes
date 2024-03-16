@@ -150,7 +150,7 @@ MonoBehaviour:
   targetManager: {fileID: 0}
   boostEffect: {fileID: 0}
   boostController: {fileID: 527438634695109900}
-  skeletonGraphic: {fileID: 0}
+  imageAnim: {fileID: 0}
   managerProfile:
     assign: 0
     price: 0
@@ -658,7 +658,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  marketURL: '"market://details?id=idle.restaurant.tyoon.factory.cooking.foodgame"'
 --- !u!1 &4183933081173981712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1082,7 @@ MonoBehaviour:
   targetManager: {fileID: 0}
   boostEffect: {fileID: 0}
   boostController: {fileID: 6445256163125662077}
-  skeletonGraphic: {fileID: 0}
+  imageAnim: {fileID: 0}
   managerProfile:
     assign: 0
     price: 0

@@ -5,9 +5,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class RandomChef : MonoBehaviour
 {
+	
+	public ImageAnimation anim;
 	private sealed class _PlayAnimation_c__Iterator0 : IEnumerator, IDisposable, IEnumerator<object>
 	{
 		internal int _random___0;
@@ -53,7 +56,7 @@ public class RandomChef : MonoBehaviour
 				}
 				while (this._random___0 == this._this.lastIndex);
 				this._this.lastIndex = this._random___0;
-				this._this.animator.AnimationState.SetAnimation(0, this._this.animations[this._random___0], true);
+				this._this.anim.ChangeAnim(Random.Range(0,4));
 				this._current = this._this.waitForSeconds;
 				if (!this._disposing)
 				{
@@ -82,7 +85,6 @@ public class RandomChef : MonoBehaviour
 
 	private int lastIndex;
 
-	private SkeletonGraphic animator;
 
 	private WaitForSeconds waitForSeconds;
 
@@ -99,14 +101,12 @@ public class RandomChef : MonoBehaviour
 
 	private void Start()
 	{
-		this.animator = base.GetComponent<SkeletonGraphic>();
 		this.waitForSeconds = new WaitForSeconds((float)this.changeTime);
 		base.StartCoroutine(this.PlayAnimation());
 	}
 
 	public void SetSpeed(int value)
 	{
-		this.animator.timeScale = (float)value;
 	}
 
 	private IEnumerator PlayAnimation()

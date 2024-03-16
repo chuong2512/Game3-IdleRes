@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "Atllas"
+  m_Name: Atllas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -28,6 +28,8 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 21300148, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
@@ -38,7 +40,7 @@ SpriteAtlas:
     - {fileID: 21300190, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300120, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300150, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-    - {fileID: 21300234, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    - {fileID: 21300042, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300034, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300030, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
@@ -148,9 +150,13 @@ SpriteAtlas:
     - {fileID: 21300106, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300090, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
     - {fileID: 21300216, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-    - {fileID: 21300042, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-    totalSpriteSurfaceArea: 0
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys: []
   m_MasterAtlas: {fileID: 0}
-  m_Tag: "Atllas"
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_RenderDataMap: {}
+  m_Tag: Atllas
   m_IsVariant: 0
