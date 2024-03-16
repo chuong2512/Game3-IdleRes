@@ -8,196 +8,226 @@ using UnityEngine;
 
 public class TransporterController : MonoBehaviour
 {
-	private sealed class _Working_c__Iterator0 : IEnumerator, IDisposable, IEnumerator<object>
-	{
-		internal TransporterController _this;
+    public ImageAnimation anim;
 
-		internal object _current;
+    private sealed class _Working_c__Iterator0 : IEnumerator, IDisposable, IEnumerator<object>
+    {
+        internal TransporterController _this;
 
-		internal bool _disposing;
+        internal object _current;
 
-		internal int _PC;
+        internal bool _disposing;
 
-		object IEnumerator<object>.Current
-		{
-			get
-			{
-				return this._current;
-			}
-		}
+        internal int _PC;
 
-		object IEnumerator.Current
-		{
-			get
-			{
-				return this._current;
-			}
-		}
+        object IEnumerator<object>.Current
+        {
+            get { return this._current; }
+        }
 
-		public _Working_c__Iterator0()
-		{
-		}
+        object IEnumerator.Current
+        {
+            get { return this._current; }
+        }
 
-		public bool MoveNext()
-		{
-			uint num = (uint)this._PC;
-			this._PC = -1;
-			switch (num)
-			{
-			case 0u:
-				this._this.isIdle = false;
-				this._this.ApplyAnimationSpeed("Run_01", this._this.kitchenController.boostController.walkingSpeedBoost);
-				break;
-			case 1u:
-				break;
-			case 2u:
-				this._this.animatorTransform.eulerAngles += Vector3.up * 180f;
-				this._this.ApplyAnimationSpeed("Run_02", this._this.kitchenController.boostController.walkingSpeedBoost);
-				goto IL_1E3;
-			case 3u:
-				goto IL_1E3;
-			case 4u:
-				goto IL_2DD;
-			default:
-				return false;
-			}
-			if (!(this._this.myselfTransform.localPosition != this._this.exploitedPoint))
-			{
-				this._this.ApplyAnimationSpeed("Idle_02", this._this.kitchenController.boostController.cookingSpeedBoost);
-				this._current = new WaitForSeconds(this._this.cookingTime);
-				if (!this._disposing)
-				{
-					this._PC = 2;
-				}
-				return true;
-			}
-			this._this.myselfTransform.localPosition = Vector3.MoveTowards(this._this.myselfTransform.localPosition, this._this.exploitedPoint, Time.deltaTime * this._this.walkingSpeed);
-			this._current = null;
-			if (!this._disposing)
-			{
-				this._PC = 1;
-			}
-			return true;
-			IL_1E3:
-			if (this._this.myselfTransform.localPosition != this._this.gatheringPoint)
-			{
-				this._this.myselfTransform.localPosition = Vector3.MoveTowards(this._this.myselfTransform.localPosition, this._this.gatheringPoint, Time.deltaTime * this._this.walkingSpeed);
-				this._current = null;
-				if (!this._disposing)
-				{
-					this._PC = 3;
-				}
-				return true;
-			}
-			this._this.animatorTransform.eulerAngles += Vector3.up * 180f;
-			this._this.kitchenController.SetCash(this._this.kitchenController.kitchenProperties.transporterCapacity);
-			this._this.ApplyAnimationSpeed("Run_01", this._this.kitchenController.boostController.walkingSpeedBoost);
-			IL_2DD:
-			if (this._this.myselfTransform.localPosition != this._this.restingPosition)
-			{
-				this._this.myselfTransform.localPosition = Vector3.MoveTowards(this._this.myselfTransform.localPosition, this._this.restingPosition, Time.deltaTime * this._this.walkingSpeed);
-				this._current = null;
-				if (!this._disposing)
-				{
-					this._PC = 4;
-				}
-				return true;
-			}
-			if (!this._this.kitchenController.managerController.hasManager)
-			{
-				this._this.ApplyAnimationSpeed("Idle_01", 1f);
-				this._this.isIdle = true;
-			}
-			else
-			{
-				this._this.StartCoroutine(this._this.Working());
-			}
-			this._PC = -1;
-			return false;
-		}
+        public _Working_c__Iterator0()
+        {
+        }
 
-		public void Dispose()
-		{
-			this._disposing = true;
-			this._PC = -1;
-		}
+        public bool MoveNext()
+        {
+            uint num = (uint) this._PC;
+            this._PC = -1;
+            switch (num)
+            {
+                case 0u:
+                    this._this.isIdle = false;
+                    this._this.ApplyAnimationSpeed(2,
+                        this._this.kitchenController.boostController.walkingSpeedBoost);
+                    break;
+                case 1u:
+                    break;
+                case 2u:
+                    //todo:Chuong
+                    this._this.ApplyAnimationSpeed(3,
+                        this._this.kitchenController.boostController.walkingSpeedBoost);
+                    goto IL_1E3;
+                case 3u:
+                    goto IL_1E3;
+                case 4u:
+                    goto IL_2DD;
+                default:
+                    return false;
+            }
 
-		public void Reset()
-		{
-			throw new NotSupportedException();
-		}
-	}
+            if (!(this._this.myselfTransform.localPosition != this._this.exploitedPoint))
+            {
+                this._this.ApplyAnimationSpeed(1,
+                    this._this.kitchenController.boostController.cookingSpeedBoost);
+                this._current = new WaitForSeconds(this._this.cookingTime);
+                if (!this._disposing)
+                {
+                    this._PC = 2;
+                }
 
-	private SkeletonGraphic animator;
+                return true;
+            }
 
-	private Vector3 gatheringPoint;
+            this._this.myselfTransform.localPosition = Vector3.MoveTowards(this._this.myselfTransform.localPosition,
+                this._this.exploitedPoint, Time.deltaTime * this._this.walkingSpeed);
+            this._current = null;
+            if (!this._disposing)
+            {
+                this._PC = 1;
+            }
 
-	private Vector3 exploitedPoint;
+            return true;
+            IL_1E3:
+            if (this._this.myselfTransform.localPosition != this._this.gatheringPoint)
+            {
+                this._this.myselfTransform.localPosition = Vector3.MoveTowards(this._this.myselfTransform.localPosition,
+                    this._this.gatheringPoint, Time.deltaTime * this._this.walkingSpeed);
+                this._current = null;
+                if (!this._disposing)
+                {
+                    this._PC = 3;
+                }
 
-	private Vector3 restingPosition;
+                return true;
+            }
 
-	private Transform myselfTransform;
+            //todo:Chuong
 
-	private Transform animatorTransform;
+            this._this.kitchenController.SetCash(this._this.kitchenController.kitchenProperties.transporterCapacity);
+            this._this.ApplyAnimationSpeed(2, this._this.kitchenController.boostController.walkingSpeedBoost);
+            IL_2DD:
+            if (this._this.myselfTransform.localPosition != this._this.restingPosition)
+            {
+                this._this.myselfTransform.localPosition = Vector3.MoveTowards(this._this.myselfTransform.localPosition,
+                    this._this.restingPosition, Time.deltaTime * this._this.walkingSpeed);
+                this._current = null;
+                if (!this._disposing)
+                {
+                    this._PC = 4;
+                }
 
-	private KitchenController kitchenController;
+                return true;
+            }
 
-	private float cookingTime;
+            if (!this._this.kitchenController.managerController.hasManager)
+            {
+                this._this.ApplyAnimationSpeed(0, 1f);
+                this._this.isIdle = true;
+            }
+            else
+            {
+                this._this.StartCoroutine(this._this.Working());
+            }
 
-	private float walkingSpeed;
+            this._PC = -1;
+            return false;
+        }
 
-	public float movement;
+        public void Dispose()
+        {
+            this._disposing = true;
+            this._PC = -1;
+        }
 
-	public bool isIdle = true;
+        public void Reset()
+        {
+            throw new NotSupportedException();
+        }
+    }
 
-	private void Awake()
-	{
-		this.myselfTransform = base.transform;
-		this.animator = base.GetComponentInChildren<SkeletonGraphic>();
-		this.animatorTransform = this.animator.transform;
-	}
 
-	public void Initialize(KitchenController kitchenController)
-	{
-		this.kitchenController = kitchenController;
-		this.restingPosition = base.transform.localPosition;
-		this.exploitedPoint = kitchenController.exploitedPoint.localPosition;
-		this.gatheringPoint = kitchenController.gatheringPoint.localPosition;
-	}
+    private Vector3 gatheringPoint;
 
-	public void StartWorking()
-	{
-		if (!this.isIdle)
-		{
-			return;
-		}
-		base.StartCoroutine(this.Working());
-	}
+    private Vector3 exploitedPoint;
 
-	private IEnumerator Working()
-	{
-		TransporterController._Working_c__Iterator0 _Working_c__Iterator = new TransporterController._Working_c__Iterator0();
-		_Working_c__Iterator._this = this;
-		return _Working_c__Iterator;
-	}
+    private Vector3 restingPosition;
 
-	private void ApplyAnimationSpeed(string clip, float speed = 1f)
-	{
-		if (clip != null)
-		{
-			if (!(clip == "Run_01") && !(clip == "Run_02"))
-			{
-				if (clip == "Idle_02")
-				{
-					this.cookingTime = (float)(this.kitchenController.kitchenProperties.transporterCapacity / (this.kitchenController.kitchenProperties.workingSpeed * (double)speed));
-				}
-			}
-			else
-			{
-				this.walkingSpeed = this.kitchenController.kitchenProperties.walkingSpeed * speed * this.movement;
-			}
-		}
-		this.animator.timeScale = speed;
-		this.animator.AnimationState.SetAnimation(0, clip, true);
-	}
+    private Transform myselfTransform;
+
+    private KitchenController kitchenController;
+
+    private float cookingTime;
+
+    private float walkingSpeed;
+
+    public float movement;
+
+    public bool isIdle = true;
+
+    private void Awake()
+    {
+        this.myselfTransform = base.transform;
+    }
+
+    public void Initialize(KitchenController kitchenController)
+    {
+        this.kitchenController = kitchenController;
+        this.restingPosition = base.transform.localPosition;
+        this.exploitedPoint = kitchenController.exploitedPoint.localPosition;
+        this.gatheringPoint = kitchenController.gatheringPoint.localPosition;
+    }
+
+    public void StartWorking()
+    {
+        if (!this.isIdle)
+        {
+            return;
+        }
+
+        base.StartCoroutine(this.Working());
+    }
+
+    private IEnumerator Working()
+    {
+        TransporterController._Working_c__Iterator0 _Working_c__Iterator =
+            new TransporterController._Working_c__Iterator0();
+        _Working_c__Iterator._this = this;
+        return _Working_c__Iterator;
+    }
+
+    private void ApplyAnimationSpeed(int clip, float speed = 1f)
+    {
+        if (clip != 2 && clip != 3)
+        {
+            if (clip == 1)
+            {
+                this.cookingTime = (float) (this.kitchenController.kitchenProperties.transporterCapacity /
+                                            (this.kitchenController.kitchenProperties.workingSpeed * (double) speed));
+            }
+        }
+        else
+        {
+            this.walkingSpeed = this.kitchenController.kitchenProperties.walkingSpeed * speed * this.movement;
+        }
+
+        switch (clip)
+        {
+            case 0:
+                anim.ChangeAnim(0);
+                Rotate();
+                break;
+            case 1:
+                Rotate();
+                anim.ChangeAnim(0);
+                break;
+            case 2:
+                Rotate();
+                anim.ChangeAnim(1);
+                break;
+            case 3:
+                Rotate();
+                anim.ChangeAnim(2);
+                break;
+        }
+    }
+
+    private void Rotate(bool b = false)
+    {
+        anim.transform.rotation = b ? Quaternion.identity : Quaternion.Euler(Vector3.up * 180);
+    }
 }

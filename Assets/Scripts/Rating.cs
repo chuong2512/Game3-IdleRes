@@ -6,9 +6,6 @@ public class Rating : MonoBehaviour
 	[SerializeField]
 	private GameObject popup;
 
-	[SerializeField]
-	private string marketURL;
-
 	public void Show(bool value)
 	{
 		this.popup.SetActive(value);
@@ -22,7 +19,7 @@ public class Rating : MonoBehaviour
 	{
 		this.Show(false);
 		Tracking.instance.Rate_Action("Rated");
-		Application.OpenURL(this.marketURL);
+		Application.OpenURL("market://details?id=" + Application.identifier);
 	}
 
 	public void Close()

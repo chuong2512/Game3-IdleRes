@@ -182,8 +182,7 @@ public class ManagerController : MonoBehaviour
 	public GameObject boostEffect;
 
 	public BoostController boostController;
-
-	public SkeletonGraphic skeletonGraphic;
+	public ImageAnimation imageAnim;
 
 	[HideInInspector]
 	public ManagerProfile managerProfile;
@@ -210,19 +209,19 @@ public class ManagerController : MonoBehaviour
 			{
 				if (experience == Experience.Expert)
 				{
-					this.skeletonGraphic.Skeleton.SetSkin("Manager03");
+					imageAnim?.ChangeAnim(0);
 				}
 			}
 			else
 			{
-				this.skeletonGraphic.Skeleton.SetSkin("Manager02");
+				imageAnim?.ChangeAnim(1);
 			}
 		}
 		else
 		{
-			this.skeletonGraphic.Skeleton.SetSkin("Manager01");
+			imageAnim?.ChangeAnim(0);
 		}
-		this.skeletonGraphic.Skeleton.SetToSetupPose();
+
 		this.skillSprite.sprite = Singleton<GameProcess>.Instance.GetManagerSkillSprite(this.managerProfile.skill, true);
 		int num = GameUtilities.DateTime.Offline(this.managerProfile.lastActive);
 		if (this.managerProfile.state == ManagerState.Cooldown && this.managerProfile.remainingTime > 0)
