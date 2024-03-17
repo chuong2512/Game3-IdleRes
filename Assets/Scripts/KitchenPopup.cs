@@ -127,7 +127,7 @@ public class KitchenPopup : Singleton<KitchenPopup>
 	public void Show(KitchenController kitchenController)
 	{
 		this.kitchenController = kitchenController;
-		GameUtilities.String.ToText(this.title, "Kitchen Lv." + kitchenController.kitchenData.level.ToString());
+		GameUtilities.String.ToText(this.title, "Barbershop Lv." + kitchenController.kitchenData.level.ToString());
 		int lastBonusAtLevel = Singleton<GameProcess>.Instance.GetLastBonusAtLevel(kitchenController.kitchenData.level, Location.Restaurant);
 		int nextBonusAtLevel = Singleton<GameProcess>.Instance.GetNextBonusAtLevel(kitchenController.kitchenData.level, Location.Restaurant);
 		GameUtilities.String.ToText(this.currentLevel, "Level " + kitchenController.kitchenData.level.ToString());

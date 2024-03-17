@@ -65,8 +65,8 @@ MonoBehaviour:
   levelNumber: {fileID: 0}
   upgradePrice: {fileID: 0}
   upgradeButton: {fileID: 0}
-  enableSprite: {fileID: 21300012, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-  disableSprite: {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  enableSprite: {fileID: 21300000, guid: 694c70bc6437951429e592b69e2fe736, type: 3}
+  disableSprite: {fileID: 21300000, guid: df8cd748c53d31943bed1d2e58e6b407, type: 3}
   handle: {fileID: 0}
   selection:
   - {fileID: 0}
@@ -487,8 +487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a8e0455f0f956fabafecc2a18adef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableSprite: {fileID: 21300018, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-  disableSprite: {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  enableSprite: {fileID: 21300000, guid: 694c70bc6437951429e592b69e2fe736, type: 3}
+  disableSprite: {fileID: 21300000, guid: df8cd748c53d31943bed1d2e58e6b407, type: 3}
   activateButton: {fileID: 0}
   totalExtractionText: {fileID: 0}
   overviewContent: {fileID: 0}
@@ -873,8 +873,8 @@ MonoBehaviour:
   levelNumber: {fileID: 0}
   upgradePrice: {fileID: 0}
   upgradeButton: {fileID: 0}
-  enableSprite: {fileID: 21300012, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-  disableSprite: {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  enableSprite: {fileID: 21300000, guid: 694c70bc6437951429e592b69e2fe736, type: 3}
+  disableSprite: {fileID: 21300000, guid: df8cd748c53d31943bed1d2e58e6b407, type: 3}
   handle: {fileID: 0}
   selection:
   - {fileID: 0}
@@ -996,8 +996,8 @@ MonoBehaviour:
   levelNumber: {fileID: 0}
   upgradePrice: {fileID: 0}
   upgradeButton: {fileID: 0}
-  enableSprite: {fileID: 21300012, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-  disableSprite: {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  enableSprite: {fileID: 21300000, guid: 694c70bc6437951429e592b69e2fe736, type: 3}
+  disableSprite: {fileID: 21300000, guid: df8cd748c53d31943bed1d2e58e6b407, type: 3}
   handle: {fileID: 0}
   selection:
   - {fileID: 0}
@@ -1663,11 +1663,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   spriteBoost:
-  - sprite: {fileID: 21300020, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - sprite: {fileID: 21300000, guid: 31bae596ca680914ba6102a06cfe37c4, type: 3}
     effective: 2
-  - sprite: {fileID: 21300022, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - sprite: {fileID: 21300000, guid: 70ae8b49b7af35a4fb2f7a72d31f57a5, type: 3}
     effective: 4
-  - sprite: {fileID: 21300024, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - sprite: {fileID: 21300000, guid: 40dc59bd7eb2aff45aaa4c47049aa3a2, type: 3}
     effective: 10
   boostDescription: {fileID: 0}
   inventoryEffective: {fileID: 0}
@@ -1773,8 +1773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dd1fb13ffaf9edeb158c5987577e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableSprite: {fileID: 21300018, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
-  disableSprite: {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  enableSprite: {fileID: 21300000, guid: 694c70bc6437951429e592b69e2fe736, type: 3}
+  disableSprite: {fileID: 21300000, guid: df8cd748c53d31943bed1d2e58e6b407, type: 3}
   managerPriceText: {fileID: 0}
   hireManagerButton: {fileID: 0}
   targetPopup: {fileID: 0}
