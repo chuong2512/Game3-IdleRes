@@ -549,13 +549,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAF39DD3DD6C86FE98062F526B8B30FA522567331
 IL2CPP_EXTERN_C String_t* _stringLiteralAF7E58EC823143DFA2C59459C1783C0A47188C64;
 IL2CPP_EXTERN_C String_t* _stringLiteralB13EBCE59781854DF68524D169EF965E4C221639;
 IL2CPP_EXTERN_C String_t* _stringLiteralB5786ABFC32876AF0C7ECFBA9485F334E1C599AD;
-IL2CPP_EXTERN_C String_t* _stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA839AA9B952F20BBBB5E83609055E3B6BB000F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralBAB52A7275D5504A32C6BA8544916A04D5E43F96;
 IL2CPP_EXTERN_C String_t* _stringLiteralBEDF0CEB47D2F703F6242D6D3B5872543E40D214;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF3FF9F7CCA62EB6AE70F1174277FDF982D306D7;
 IL2CPP_EXTERN_C String_t* _stringLiteralC1771FD048FA0C5283A6D1085A6C3493F05C1302;
 IL2CPP_EXTERN_C String_t* _stringLiteralC2B8DCBE9F545AEFCD90AAD8188272F3F2BADFB6;
+IL2CPP_EXTERN_C String_t* _stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80;
 IL2CPP_EXTERN_C String_t* _stringLiteralC704FD24BB099EBCE0C6DE1A000B3A99BD0A1C79;
 IL2CPP_EXTERN_C String_t* _stringLiteralC7FA0D9EB091FADA5CA9CAC82426A7A0959833EA;
 IL2CPP_EXTERN_C String_t* _stringLiteralC9CE6F839EE1AA563AFD21D7263F699A81869793;
@@ -7300,7 +7300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_LoadAd_mFC80C832A36DEF42BE1705E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tE49308FCB52FC5298526AD6BBBE0B1E6CF6579E8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_t53925D96536F97B418172C0EF27AD9E6858FF348_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuangCao_U3CLoadAdU3Eb__8_0_mBB0B825E6B9D23E344D5BCCC3F991473720181EA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80);
 		s_Il2CppMethodInitialized = true;
 	}
 	AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* V_0 = NULL;
@@ -7344,7 +7344,7 @@ IL_0009:
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_3 = V_0;
 		Action_2_tE49308FCB52FC5298526AD6BBBE0B1E6CF6579E8* L_4 = (Action_2_tE49308FCB52FC5298526AD6BBBE0B1E6CF6579E8*)il2cpp_codegen_object_new(Action_2_tE49308FCB52FC5298526AD6BBBE0B1E6CF6579E8_il2cpp_TypeInfo_var);
 		Action_2__ctor_m8D9CC65AB147253CE40EB162D0F91713FCE3DD87(L_4, __this, (intptr_t)((void*)QuangCao_U3CLoadAdU3Eb__8_0_mBB0B825E6B9D23E344D5BCCC3F991473720181EA_RuntimeMethod_var), NULL);
-		AppOpenAd_LoadAd_m7C5D813171D0A5587B640ADCFC830A5478759CDC(_stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240, 1, L_3, L_4, NULL);
+		AppOpenAd_LoadAd_m7C5D813171D0A5587B640ADCFC830A5478759CDC(_stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80, 1, L_3, L_4, NULL);
 		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:70>
 		return;
 	}
@@ -7360,7 +7360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_LoadInterstitialAd_m677D7F9EB46
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuangCao_U3CLoadInterstitialAdU3Eb__11_0_m33686B2753E0BB15A612D905D7B03224B3A1105E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4CE930388BF0D0721CC71424D0AF03B46FB38DFE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE92B0ACB76744F9274A0F7B1D50997CB14BA2C0C);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -7419,7 +7419,7 @@ IL_001a:
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_5 = V_0;
 		Action_2_t6D103D50D92EED8806671DABC525008F7D560A68* L_6 = (Action_2_t6D103D50D92EED8806671DABC525008F7D560A68*)il2cpp_codegen_object_new(Action_2_t6D103D50D92EED8806671DABC525008F7D560A68_il2cpp_TypeInfo_var);
 		Action_2__ctor_mEBCBF2FC848DA79D39227A5344136BFA0FF2A65C(L_6, __this, (intptr_t)((void*)QuangCao_U3CLoadInterstitialAdU3Eb__11_0_m33686B2753E0BB15A612D905D7B03224B3A1105E_RuntimeMethod_var), NULL);
-		InterstitialAd_Load_m7582DD601991C297C7E7E61BBE53B639466A73A1(_stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240, L_5, L_6, NULL);
+		InterstitialAd_Load_m7582DD601991C297C7E7E61BBE53B639466A73A1(_stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80, L_5, L_6, NULL);
 		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:112>
 		return;
 	}
@@ -7434,8 +7434,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_LoadRewardedAd_m38ACA99BEA92A69
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_t53925D96536F97B418172C0EF27AD9E6858FF348_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuangCao_U3CLoadRewardedAdU3Eb__12_0_m37BC51F32348C751B6BBB49D7226E1C63D174F59_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBEDF0CEB47D2F703F6242D6D3B5872543E40D214);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80);
 		s_Il2CppMethodInitialized = true;
 	}
 	AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* V_0 = NULL;
@@ -7488,7 +7488,7 @@ IL_001a:
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_4 = V_0;
 		Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418* L_5 = (Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418*)il2cpp_codegen_object_new(Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418_il2cpp_TypeInfo_var);
 		Action_2__ctor_mF2798EE70F4B32175E94176B602F4D7A2456BA02(L_5, __this, (intptr_t)((void*)QuangCao_U3CLoadRewardedAdU3Eb__12_0_m37BC51F32348C751B6BBB49D7226E1C63D174F59_RuntimeMethod_var), NULL);
-		RewardedAd_Load_m898A7CFD8143AE42D14C47EC3EAE3CE40B0B5741(_stringLiteralB6811F05CE5B6CDB01EAB9ACC489DC16C2BAF240, L_4, L_5, NULL);
+		RewardedAd_Load_m898A7CFD8143AE42D14C47EC3EAE3CE40B0B5741(_stringLiteralC5B212557BA475F6C6829B224C495D85C8FAEE80, L_4, L_5, NULL);
 		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:148>
 		return;
 	}
@@ -8021,7 +8021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QuangCao_GetRewardAvailable_m7D5E364066F
 		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_0 = __this->___interstitialAd;
 		if (!L_0)
 		{
-			goto IL_0017;
+			goto IL_0014;
 		}
 	}
 	{
@@ -8029,22 +8029,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QuangCao_GetRewardAvailable_m7D5E364066F
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = InterstitialAd_CanShowAd_m76764B2A422FA2DE78D9E29DE630380BE6E65A0E(L_1, NULL);
-		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		return L_2;
 	}
 
-IL_0017:
+IL_0014:
 	{
-		return (bool)1;
+		return (bool)0;
 	}
 }
 // Method Definition Index: 47852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_PhatQuangCao_m90642E15055427D403B451B6C062C55F587A2940 (QuangCao_t4C4B2142F2CDABEA94B816EF2552EBD644F4DA58* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:287>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:286>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_action;
 		QuangCao_ShowAd_m896B7707639D28BC2D463FB2584D186E3DF2FB27(__this, L_0, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:288>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:287>
 		return;
 	}
 }
@@ -8052,9 +8052,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_PhatQuangCao_m90642E15055427D40
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_PhatQuangCaoInter_m136E06C5B6174BD1CAC86A702A9A47D15416D07F (QuangCao_t4C4B2142F2CDABEA94B816EF2552EBD644F4DA58* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:292>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:291>
 		QuangCao_ShowAd_m896B7707639D28BC2D463FB2584D186E3DF2FB27(__this, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:293>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:292>
 		return;
 	}
 }
@@ -8075,7 +8075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_ShowAdIfAvailable_m261CBD390BF4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:297>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:296>
 		bool L_0;
 		L_0 = QuangCao_get_IsAdAvailable_m616762EF1062574EC031C616F2DF396017802CA8(__this, NULL);
 		if (!L_0)
@@ -8093,47 +8093,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_ShowAdIfAvailable_m261CBD390BF4
 
 IL_0010:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:299>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:298>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:302>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:301>
 		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_2 = __this->___ad;
 		EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF* L_3 = (EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF*)il2cpp_codegen_object_new(EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_mCB95906E90473A2BABEBC6C286D9268E255A8BC0(L_3, __this, (intptr_t)((void*)QuangCao_HandleAdDidDismissFullScreenContent_mEF65DB0621960DA5CB21C6188ADF9D73C18AE23C_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		AppOpenAd_add_OnAdDidDismissFullScreenContent_m469DEC3185652A48925AF5731B037D4FCFB9FA2C(L_2, L_3, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:303>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:302>
 		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_4 = __this->___ad;
 		EventHandler_1_t593257C5033982AD2B263F7A0B0FC937B82BFEF3* L_5 = (EventHandler_1_t593257C5033982AD2B263F7A0B0FC937B82BFEF3*)il2cpp_codegen_object_new(EventHandler_1_t593257C5033982AD2B263F7A0B0FC937B82BFEF3_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_m92F984A82DFB8E84BAA2A39357B726FFD08FA3B1(L_5, __this, (intptr_t)((void*)QuangCao_HandleAdFailedToPresentFullScreenContent_m745592D11490C6A6B2A82F67A4D9934701823F27_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		AppOpenAd_add_OnAdFailedToPresentFullScreenContent_mBF74E44D7DD28CE830BA2B7CF1F2B9DA9300D7B3(L_4, L_5, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:304>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:303>
 		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_6 = __this->___ad;
 		EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF* L_7 = (EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF*)il2cpp_codegen_object_new(EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_mCB95906E90473A2BABEBC6C286D9268E255A8BC0(L_7, __this, (intptr_t)((void*)QuangCao_HandleAdDidPresentFullScreenContent_mE9CD4C0A61E0B49C801C98281DAFF803F0594C33_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		AppOpenAd_add_OnAdDidPresentFullScreenContent_mB83D5B0AA2A92898F34BB5049A02297BDC2EBA36(L_6, L_7, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:305>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:304>
 		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_8 = __this->___ad;
 		EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF* L_9 = (EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF*)il2cpp_codegen_object_new(EventHandler_1_tF2D41B212D800E7E7D00F9BDEA817E57153988BF_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_mCB95906E90473A2BABEBC6C286D9268E255A8BC0(L_9, __this, (intptr_t)((void*)QuangCao_HandleAdDidRecordImpression_m438B739D08D34F27AC6C3DF5573AD1F3F65B2B24_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		AppOpenAd_add_OnAdDidRecordImpression_m55C6C541D103B32BA778D168BC1E67BB5A2EE829(L_8, L_9, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:306>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:305>
 		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_10 = __this->___ad;
 		EventHandler_1_tD03F309FAB5E0E541F6A0F22703239208016F693* L_11 = (EventHandler_1_tD03F309FAB5E0E541F6A0F22703239208016F693*)il2cpp_codegen_object_new(EventHandler_1_tD03F309FAB5E0E541F6A0F22703239208016F693_il2cpp_TypeInfo_var);
 		EventHandler_1__ctor_mAC3332BF3C27BFE2740FB2AC88CA48AA21E2627C(L_11, __this, (intptr_t)((void*)QuangCao_HandlePaidEvent_mAC875D68E7259D0CDE058B51EC17CAC8BF80C2B9_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		AppOpenAd_add_OnPaidEvent_mB2908CB8DC8DB58F74C5706E666DF9F7B6104EF9(L_10, L_11, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:308>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:307>
 		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_12 = __this->___ad;
 		NullCheck(L_12);
 		AppOpenAd_Show_m2037E04CE3FAE7C677CEA702F39C20390CAB9024(L_12, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:309>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:308>
 		return;
 	}
 }
@@ -8148,17 +8148,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandleAdDidDismissFullScreenCon
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:313>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:312>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6ABE747B655EB8C3C7C2CC3D52D4500DFD4AB575, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:315>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:314>
 		__this->___ad = (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ad), (void*)(AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC*)NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:316>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:315>
 		__this->___isShowingAd = (bool)0;
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:317>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:316>
 		QuangCao_LoadAd_mFC80C832A36DEF42BE1705E671A2FB9B06CB1B6F(__this, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:318>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:317>
 		return;
 	}
 }
@@ -8174,7 +8174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandleAdFailedToPresentFullScre
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:322>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:321>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		AdErrorEventArgs_t1DBA3607C875036E80F31EE6AC928BB12D34D32A* L_2 = ___1_args;
@@ -8189,12 +8189,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandleAdFailedToPresentFullScre
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogFormat_mD555556327B42AA3482D077EFAEB16B0AFDF72C7(_stringLiteralD19401DDA6D5CF1185B4E1E8080EE5E7A980B895, L_1, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:324>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:323>
 		__this->___ad = (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ad), (void*)(AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC*)NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:325>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:324>
 		QuangCao_LoadAd_mFC80C832A36DEF42BE1705E671A2FB9B06CB1B6F(__this, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:326>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:325>
 		return;
 	}
 }
@@ -8209,12 +8209,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandleAdDidPresentFullScreenCon
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:330>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:329>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFBD1362612D878C8F69B7BD0CCFBC72000D9F2BA, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:331>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:330>
 		__this->___isShowingAd = (bool)1;
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:332>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:331>
 		return;
 	}
 }
@@ -8229,10 +8229,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandleAdDidRecordImpression_m43
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:336>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:335>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralDEA18AED9057DDC133133E637A2EF0308A1DCDBA, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:337>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:336>
 		return;
 	}
 }
@@ -8249,8 +8249,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandlePaidEvent_mAC875D68E7259D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:340>
 		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:341>
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:342>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		AdValueEventArgs_tFE4F97B850E2D4EF184678E9861479BA39B1299D* L_2 = ___1_args;
@@ -8278,7 +8278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuangCao_HandlePaidEvent_mAC875D68E7259D
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogFormat_mD555556327B42AA3482D077EFAEB16B0AFDF72C7(_stringLiteral3905296F14EFB5F15A3F50D23990BDC7060586E4, L_5, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:343>
+		//<source_info:E:/Unity Games/IdleRes/Assets/QuangCao.cs:342>
 		return;
 	}
 }
