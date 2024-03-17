@@ -63,14 +63,14 @@ public class OfflinePopup : MonoBehaviour
 
     public void DoubleReward()
     {
-        if (!AdsControl.Instance.GetRewardAvailable())
+        if (!QuangCao.Instance.GetRewardAvailable())
         {
             Notification.instance.Warning("No available video at the moment.");
             Singleton<SoundManager>.Instance.Play("Notification");
             return;
         }
 
-        AdsControl.Instance.PlayDelegateRewardVideo(delegate
+        QuangCao.Instance.PhatQuangCao(delegate
         {
             this.Close(2);
             Tracking.instance.Ads_Impress("reward", "DoubleOfflineCoin");

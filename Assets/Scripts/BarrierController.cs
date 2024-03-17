@@ -330,13 +330,13 @@ public class BarrierController : MonoBehaviour
 
 	public void ReduceProcess()
 	{
-		if (!AdsControl.Instance.GetRewardAvailable())
+		if (!QuangCao.Instance.GetRewardAvailable())
 		{
 			Notification.instance.Warning("No available video at the moment.");
 			Singleton<SoundManager>.Instance.Play("Notification");
 			return;
 		}
-		AdsControl.Instance.PlayDelegateRewardVideo(delegate
+		QuangCao.Instance.PhatQuangCao(() =>
 		{
 			int count = Singleton<GameManager>.Instance.kitchenController.Count;
 			this.barrierData.unlockRemaining -= this.config.barrier[count / this.config.kitchen.barrierStep - 1].reduceProcessTime;

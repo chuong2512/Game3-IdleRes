@@ -140,17 +140,17 @@ MonoBehaviour:
     disableSprite: {fileID: 21300222, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
   experienceRate:
   - rate: 80
-    avatar: {fileID: 21300140, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    avatar: {fileID: 21300000, guid: 9a23b6dbae4d16942b3c6dede8864f1a, type: 3}
     textColor: {r: 0.5411765, g: 0.9803922, b: 0.427451, a: 1}
     borderColor: {r: 0.1372549, g: 0.3372549, b: 0.3372549, a: 1}
     experience: 0
   - rate: 30
-    avatar: {fileID: 21300230, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    avatar: {fileID: 21300000, guid: 9a23b6dbae4d16942b3c6dede8864f1a, type: 3}
     textColor: {r: 0, g: 0.8, b: 1, a: 1}
     borderColor: {r: 0, g: 0.2470588, b: 0.5019608, a: 1}
     experience: 1
   - rate: 15
-    avatar: {fileID: 21300208, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    avatar: {fileID: 21300000, guid: 9a23b6dbae4d16942b3c6dede8864f1a, type: 3}
     textColor: {r: 1, g: 0.9215686, b: 0, a: 1}
     borderColor: {r: 0.8392157, g: 0.5137255, b: 0, a: 1}
     experience: 2

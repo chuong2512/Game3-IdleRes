@@ -237,13 +237,13 @@ public class GetFreeCoin : MonoBehaviour
 
 	public void WatchAdsFreeCash()
 	{
-		if (!AdsControl.Instance.GetRewardAvailable())
+		if (!QuangCao.Instance.GetRewardAvailable())
 		{
 			Notification.instance.Warning("No available video at the moment.");
 			Singleton<SoundManager>.Instance.Play("Notification");
 			return;
 		}
-        AdsControl.Instance.PlayDelegateRewardVideo(delegate
+        QuangCao.Instance.PhatQuangCao(() =>
 		{
 			if (this.freeCoinData.watchAds == this.config.freeCash.watchAdLimited)
 			{
