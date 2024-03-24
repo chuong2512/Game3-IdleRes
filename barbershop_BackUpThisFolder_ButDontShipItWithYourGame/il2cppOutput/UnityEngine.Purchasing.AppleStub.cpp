@@ -377,7 +377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_mDAB47BC6B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81324
+// Method Definition Index: 81404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7EE10349DFD0B38ECC7E9A632072A835328079BD UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mEA6A350C87525EFAB579098C64B94E344B696DB2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -411,7 +411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7EE10349DFD0B38ECC7E9A632072A
 		return L_6;
 	}
 }
-// Method Definition Index: 81325
+// Method Definition Index: 81405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mAD47E6619742FDC0873835E504A6C10C538E21F4 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB02D158773AB86D00DB9EDEC1BED68F8F54CDFF1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -509,7 +509,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t7EE10349DFD0B38ECC7E9A632072A835328079BD_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81326
+// Method Definition Index: 81406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetUnityPurchasingCallback_m59F7F0F591009E14980A9CEF2D4AB5B02C103DCD (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, UnityPurchasingCallback_tFC58410D7A50DD05CC7430C76C7E0277A213757D* ___0_AsyncCallback, const RuntimeMethod* method) 
 {
 	{
@@ -519,7 +519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetUnityPurchasingCallb
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_SetUnityPurchasingCallback_m59F7F0F591009E14980A9CEF2D4AB5B02C103DCD_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81327
+// Method Definition Index: 81407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RestoreTransactions_m528B09EACB1EC8DC6ABFDB1F4C1B3D1267ECAD87 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -529,7 +529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RestoreTransactions_m52
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_RestoreTransactions_m528B09EACB1EC8DC6ABFDB1F4C1B3D1267ECAD87_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81328
+// Method Definition Index: 81408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RefreshAppReceipt_mEDAD764F89ED45ECDD029A2D330078772D6B8251 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -539,7 +539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RefreshAppReceipt_mEDAD
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_RefreshAppReceipt_mEDAD764F89ED45ECDD029A2D330078772D6B8251_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81329
+// Method Definition Index: 81409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_AddTransactionObserver_m5121AAEF022AC67F3C6DB6882296A86100362F7F (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -549,7 +549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_AddTransactionObserver_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_AddTransactionObserver_m5121AAEF022AC67F3C6DB6882296A86100362F7F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81330
+// Method Definition Index: 81410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetApplicationUsername_m129F3A37DF1582B95008B29CCDFCD11484EEDE5D (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_applicationUsername, const RuntimeMethod* method) 
 {
 	{
@@ -559,7 +559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetApplicationUsername_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_SetApplicationUsername_m129F3A37DF1582B95008B29CCDFCD11484EEDE5D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81331
+// Method Definition Index: 81411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RetrieveProducts_mEB58BECF8A46AB4A465ED74ECD6CD38D5D9AFD9C (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	{
@@ -569,7 +569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RetrieveProducts_mEB58B
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_RetrieveProducts_mEB58BECF8A46AB4A465ED74ECD6CD38D5D9AFD9C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81332
+// Method Definition Index: 81412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_Purchase_m6CBE0C13C5C8BF8BEC1FC9664E841CEF84A80DCB (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_productJSON, String_t* ___1_developerPayload, const RuntimeMethod* method) 
 {
 	{
@@ -579,7 +579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_Purchase_m6CBE0C13C5C8B
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_Purchase_m6CBE0C13C5C8BF8BEC1FC9664E841CEF84A80DCB_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81333
+// Method Definition Index: 81413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FinishTransaction_m35C1411AD6F14F441AB34126B5A500BD77FF7745 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_productJSON, String_t* ___1_transactionID, const RuntimeMethod* method) 
 {
 	{
@@ -589,7 +589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FinishTransaction_m35C1
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_FinishTransaction_m35C1411AD6F14F441AB34126B5A500BD77FF7745_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81334
+// Method Definition Index: 81414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_get_appReceipt_m8A85115509BFBE88F48F5D55A65546AF13D970B2 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -599,7 +599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_get_appReceipt_m8A
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_get_appReceipt_m8A85115509BFBE88F48F5D55A65546AF13D970B2_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81335
+// Method Definition Index: 81415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_get_appReceiptModificationDate_m33011EC18B76017312CF5A0D9BD50EC620265263 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -609,7 +609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_get_appReceiptModific
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_get_appReceiptModificationDate_m33011EC18B76017312CF5A0D9BD50EC620265263_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81336
+// Method Definition Index: 81416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool iOSStoreBindings_get_canMakePayments_m4F4E8DD4A065350D93D00BC130DF7218245FE2B0 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -619,7 +619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool iOSStoreBindings_get_canMakePayments_m4F
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_get_canMakePayments_m4F4E8DD4A065350D93D00BC130DF7218245FE2B0_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81337
+// Method Definition Index: 81417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool iOSStoreBindings_get_simulateAskToBuy_mBFB64C18924816E968C87931593D28CDEF68529D (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -629,7 +629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool iOSStoreBindings_get_simulateAskToBuy_mB
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_get_simulateAskToBuy_mBFB64C18924816E968C87931593D28CDEF68529D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81338
+// Method Definition Index: 81418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_set_simulateAskToBuy_m615465420A0AB15BCE3883B9123E5E433DB4BD04 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -639,7 +639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_set_simulateAskToBuy_m6
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_set_simulateAskToBuy_m615465420A0AB15BCE3883B9123E5E433DB4BD04_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81339
+// Method Definition Index: 81419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FetchStorePromotionOrder_mD0F71A7734B82E3092ECC73F79D71C830CF24A98 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -649,7 +649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FetchStorePromotionOrde
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_FetchStorePromotionOrder_mD0F71A7734B82E3092ECC73F79D71C830CF24A98_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81340
+// Method Definition Index: 81420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetStorePromotionOrder_m94F0280669837961CDD0F2766F3E10510049F7E7 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	{
@@ -659,7 +659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetStorePromotionOrder_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_SetStorePromotionOrder_m94F0280669837961CDD0F2766F3E10510049F7E7_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81341
+// Method Definition Index: 81421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FetchStorePromotionVisibility_mBAC79DD084C8BA7F42C939BB52ADBD2BB297A5E2 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	{
@@ -669,7 +669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FetchStorePromotionVisi
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_FetchStorePromotionVisibility_mBAC79DD084C8BA7F42C939BB52ADBD2BB297A5E2_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81342
+// Method Definition Index: 81422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetStorePromotionVisibility_m066EC9CBAF8C81FF2DDCAD1078768F1B226213BD (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_productId, String_t* ___1_visibility, const RuntimeMethod* method) 
 {
 	{
@@ -679,7 +679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetStorePromotionVisibi
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_SetStorePromotionVisibility_m066EC9CBAF8C81FF2DDCAD1078768F1B226213BD_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81343
+// Method Definition Index: 81423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_GetTransactionReceiptForProductId_mB64DF0880AA6C6F0CF0DE93728F3B0BA72A106BF (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	{
@@ -689,7 +689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_GetTransactionRece
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_GetTransactionReceiptForProductId_mB64DF0880AA6C6F0CF0DE93728F3B0BA72A106BF_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81344
+// Method Definition Index: 81424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_InterceptPromotionalPurchases_m89A0F3F96F5E90D74A8A6ED061528BBFAAB87E91 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -699,7 +699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_InterceptPromotionalPur
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_InterceptPromotionalPurchases_m89A0F3F96F5E90D74A8A6ED061528BBFAAB87E91_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81345
+// Method Definition Index: 81425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_ContinuePromotionalPurchases_m8C1448DAB8B0A69FBAA8133F03C832ED48F256C4 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -709,7 +709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_ContinuePromotionalPurc
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_ContinuePromotionalPurchases_m8C1448DAB8B0A69FBAA8133F03C832ED48F256C4_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81346
+// Method Definition Index: 81426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_PresentCodeRedemptionSheet_m7D4A289017F3C014EDEB9F0C5A2E5E700A8AE194 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -719,7 +719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_PresentCodeRedemptionSh
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_PresentCodeRedemptionSheet_m7D4A289017F3C014EDEB9F0C5A2E5E700A8AE194_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 81347
+// Method Definition Index: 81427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings__ctor_m409359A069DD880BA8F3F182D737B6BEE4B115FB (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
 {
 	{

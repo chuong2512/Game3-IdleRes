@@ -638,7 +638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_limits_Injected_mC07461
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79974
+// Method Definition Index: 80048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -680,7 +680,7 @@ IL2CPP_EXTERN_C  String_t* PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431
 	_returnValue = PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 79975
+// Method Definition Index: 80049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -705,7 +705,7 @@ IL2CPP_EXTERN_C  int32_t PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD
 	_returnValue = PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 79976
+// Method Definition Index: 80050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicsScene2D_Equals_m4A19DE0675BD596A1B5AC0F7138A9A6F4D6029B3 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -758,7 +758,7 @@ IL2CPP_EXTERN_C  bool PhysicsScene2D_Equals_m4A19DE0675BD596A1B5AC0F7138A9A6F4D6
 	_returnValue = PhysicsScene2D_Equals_m4A19DE0675BD596A1B5AC0F7138A9A6F4D6029B3(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 79977
+// Method Definition Index: 80051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicsScene2D_Equals_mA7C243A71CFDBFA905F057CE3E9C5E61B34216FB (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -785,7 +785,7 @@ IL2CPP_EXTERN_C  bool PhysicsScene2D_Equals_mA7C243A71CFDBFA905F057CE3E9C5E61B34
 	_returnValue = PhysicsScene2D_Equals_mA7C243A71CFDBFA905F057CE3E9C5E61B34216FB(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 79978
+// Method Definition Index: 80052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsScene2D_Raycast_m5A2D66F6E7E8F34B6CF5B82099EFA4F69155F25D (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
 	ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 V_0;
@@ -823,7 +823,7 @@ IL2CPP_EXTERN_C  RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsS
 	_returnValue = PhysicsScene2D_Raycast_m5A2D66F6E7E8F34B6CF5B82099EFA4F69155F25D(_thisAdjusted, ___0_origin, ___1_direction, ___2_distance, ___3_layerMask, method);
 	return _returnValue;
 }
-// Method Definition Index: 79979
+// Method Definition Index: 80053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsScene2D_Raycast_m74A71D9DBCC2CCD7454240AE784CEE5720E55EA0 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___3_contactFilter, const RuntimeMethod* method) 
 {
 	RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA V_0;
@@ -855,7 +855,7 @@ IL2CPP_EXTERN_C  RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsS
 	_returnValue = PhysicsScene2D_Raycast_m74A71D9DBCC2CCD7454240AE784CEE5720E55EA0(_thisAdjusted, ___0_origin, ___1_direction, ___2_distance, ___3_contactFilter, method);
 	return _returnValue;
 }
-// Method Definition Index: 79980
+// Method Definition Index: 80054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsScene2D_Raycast_Internal_m39487CD184C451A0932E85CF899B768B0AF04424 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___4_contactFilter, const RuntimeMethod* method) 
 {
 	RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA V_0;
@@ -867,7 +867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5
 		return L_1;
 	}
 }
-// Method Definition Index: 79981
+// Method Definition Index: 80055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_Raycast_m004884696543F60917C1ED72374C1528207229C3 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___3_contactFilter, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___4_results, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -899,7 +899,7 @@ IL2CPP_EXTERN_C  int32_t PhysicsScene2D_Raycast_m004884696543F60917C1ED72374C152
 	_returnValue = PhysicsScene2D_Raycast_m004884696543F60917C1ED72374C1528207229C3(_thisAdjusted, ___0_origin, ___1_direction, ___2_distance, ___3_contactFilter, ___4_results, method);
 	return _returnValue;
 }
-// Method Definition Index: 79982
+// Method Definition Index: 80056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastArray_Internal_m78B0093DCC7AD643AE641D65D9A616FBAAF93D08 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___4_contactFilter, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___5_results, const RuntimeMethod* method) 
 {
 	{
@@ -910,7 +910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastArray_Internal_
 		return L_2;
 	}
 }
-// Method Definition Index: 79983
+// Method Definition Index: 80057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_Raycast_m541841D244633BA234ED72B01204161686D6B3B9 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___3_contactFilter, List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324* ___4_results, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -942,7 +942,7 @@ IL2CPP_EXTERN_C  int32_t PhysicsScene2D_Raycast_m541841D244633BA234ED72B01204161
 	_returnValue = PhysicsScene2D_Raycast_m541841D244633BA234ED72B01204161686D6B3B9(_thisAdjusted, ___0_origin, ___1_direction, ___2_distance, ___3_contactFilter, ___4_results, method);
 	return _returnValue;
 }
-// Method Definition Index: 79984
+// Method Definition Index: 80058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastList_Internal_m8F8D0331D48A0A5F19238FB3FE48DF1007C078DD (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___4_contactFilter, List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324* ___5_results, const RuntimeMethod* method) 
 {
 	{
@@ -953,7 +953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastList_Internal_m
 		return L_2;
 	}
 }
-// Method Definition Index: 79985
+// Method Definition Index: 80059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsScene2D_CircleCast_m4F90765DD78CD59933E5ACBC0606C7093E70A079 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, float ___1_radius, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___4_contactFilter, const RuntimeMethod* method) 
 {
 	RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA V_0;
@@ -986,7 +986,7 @@ IL2CPP_EXTERN_C  RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsS
 	_returnValue = PhysicsScene2D_CircleCast_m4F90765DD78CD59933E5ACBC0606C7093E70A079(_thisAdjusted, ___0_origin, ___1_radius, ___2_direction, ___3_distance, ___4_contactFilter, method);
 	return _returnValue;
 }
-// Method Definition Index: 79986
+// Method Definition Index: 80060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA PhysicsScene2D_CircleCast_Internal_m2958E2DFB3A0E08296A2BD038A3837870830685C (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_origin, float ___2_radius, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_direction, float ___4_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___5_contactFilter, const RuntimeMethod* method) 
 {
 	RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA V_0;
@@ -999,7 +999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5
 		return L_2;
 	}
 }
-// Method Definition Index: 79987
+// Method Definition Index: 80061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_GetRayIntersection_mF3E0EC0D4F5A4B8C063E735979C851ED5B4B4C2E (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, float ___1_distance, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___2_results, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1033,7 +1033,7 @@ IL2CPP_EXTERN_C  int32_t PhysicsScene2D_GetRayIntersection_mF3E0EC0D4F5A4B8C063E
 	_returnValue = PhysicsScene2D_GetRayIntersection_mF3E0EC0D4F5A4B8C063E735979C851ED5B4B4C2E(_thisAdjusted, ___0_ray, ___1_distance, ___2_results, ___3_layerMask, method);
 	return _returnValue;
 }
-// Method Definition Index: 79988
+// Method Definition Index: 80062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_GetRayIntersectionArray_Internal_m5E84231D490515C4B9D39733E3CB11EDDF979B20 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_physicsScene, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_direction, float ___3_distance, int32_t ___4_layerMask, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___5_results, const RuntimeMethod* method) 
 {
 	{
@@ -1045,7 +1045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_GetRayIntersectionArra
 		return L_3;
 	}
 }
-// Method Definition Index: 79989
+// Method Definition Index: 80063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsScene2D_Raycast_Internal_Injected_mFDE2EC874A7E78DF64283FD6396B8C3F9B69659E (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* ___4_contactFilter, RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* ___5_ret, const RuntimeMethod* method) 
 {
 	typedef void (*PhysicsScene2D_Raycast_Internal_Injected_mFDE2EC874A7E78DF64283FD6396B8C3F9B69659E_ftn) (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, float, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*, RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA*);
@@ -1054,7 +1054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsScene2D_Raycast_Internal_Injected
 	_il2cpp_icall_func = (PhysicsScene2D_Raycast_Internal_Injected_mFDE2EC874A7E78DF64283FD6396B8C3F9B69659E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.PhysicsScene2D::Raycast_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)");
 	_il2cpp_icall_func(___0_physicsScene, ___1_origin, ___2_direction, ___3_distance, ___4_contactFilter, ___5_ret);
 }
-// Method Definition Index: 79990
+// Method Definition Index: 80064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastArray_Internal_Injected_m554BD34B09F598A0B0F264957AB06ADD1285582F (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* ___4_contactFilter, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___5_results, const RuntimeMethod* method) 
 {
 	typedef int32_t (*PhysicsScene2D_RaycastArray_Internal_Injected_m554BD34B09F598A0B0F264957AB06ADD1285582F_ftn) (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, float, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7*);
@@ -1064,7 +1064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastArray_Internal_
 	int32_t icallRetVal = _il2cpp_icall_func(___0_physicsScene, ___1_origin, ___2_direction, ___3_distance, ___4_contactFilter, ___5_results);
 	return icallRetVal;
 }
-// Method Definition Index: 79991
+// Method Definition Index: 80065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastList_Internal_Injected_m6B018025FABC15C19B02E005C87B5228C4D8A917 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___2_direction, float ___3_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* ___4_contactFilter, List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324* ___5_results, const RuntimeMethod* method) 
 {
 	typedef int32_t (*PhysicsScene2D_RaycastList_Internal_Injected_m6B018025FABC15C19B02E005C87B5228C4D8A917_ftn) (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, float, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*, List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324*);
@@ -1074,7 +1074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_RaycastList_Internal_I
 	int32_t icallRetVal = _il2cpp_icall_func(___0_physicsScene, ___1_origin, ___2_direction, ___3_distance, ___4_contactFilter, ___5_results);
 	return icallRetVal;
 }
-// Method Definition Index: 79992
+// Method Definition Index: 80066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsScene2D_CircleCast_Internal_Injected_m6B031BCBBC711794F998BAC8EEA406959BC75910 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* ___0_physicsScene, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_origin, float ___2_radius, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___3_direction, float ___4_distance, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* ___5_contactFilter, RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* ___6_ret, const RuntimeMethod* method) 
 {
 	typedef void (*PhysicsScene2D_CircleCast_Internal_Injected_m6B031BCBBC711794F998BAC8EEA406959BC75910_ftn) (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, float, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, float, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*, RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA*);
@@ -1083,7 +1083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsScene2D_CircleCast_Internal_Injec
 	_il2cpp_icall_func = (PhysicsScene2D_CircleCast_Internal_Injected_m6B031BCBBC711794F998BAC8EEA406959BC75910_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.PhysicsScene2D::CircleCast_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,System.Single,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)");
 	_il2cpp_icall_func(___0_physicsScene, ___1_origin, ___2_radius, ___3_direction, ___4_distance, ___5_contactFilter, ___6_ret);
 }
-// Method Definition Index: 79993
+// Method Definition Index: 80067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_GetRayIntersectionArray_Internal_Injected_mAC45B2CE0A6FC10A72166EFEA0D04151C2C579A2 (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* ___0_physicsScene, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_direction, float ___3_distance, int32_t ___4_layerMask, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___5_results, const RuntimeMethod* method) 
 {
 	typedef int32_t (*PhysicsScene2D_GetRayIntersectionArray_Internal_Injected_mAC45B2CE0A6FC10A72166EFEA0D04151C2C579A2_ftn) (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, float, int32_t, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7*);
@@ -1101,7 +1101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PhysicsScene2D_GetRayIntersectionArra
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79994
+// Method Definition Index: 80068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 Physics2D_get_defaultPhysicsScene_m688935D2C81F56703A1F0E3C8712604A42CB2804 (const RuntimeMethod* method) 
 {
 	PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 V_0;
@@ -1121,7 +1121,7 @@ IL_000d:
 		return L_1;
 	}
 }
-// Method Definition Index: 79995
+// Method Definition Index: 80069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics2D_get_queriesHitTriggers_m2652ECB55DB31ADA6E1BD62DFB9792860A7B5FE8 (const RuntimeMethod* method) 
 {
 	typedef bool (*Physics2D_get_queriesHitTriggers_m2652ECB55DB31ADA6E1BD62DFB9792860A7B5FE8_ftn) ();
@@ -1131,7 +1131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics2D_get_queriesHitTriggers_m2652EC
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 79996
+// Method Definition Index: 80070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D_IgnoreCollision_mFE023CDD902A5068236266648DAB8E9FD8EE387F (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* ___0_collider1, Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* ___1_collider2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1148,7 +1148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D_IgnoreCollision_mFE023CDD902A5
 		return;
 	}
 }
-// Method Definition Index: 79997
+// Method Definition Index: 80071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D_IgnoreCollision_mA05835421D23AACF69E76082124F4F983B9E2BDD (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* ___0_collider1, Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* ___1_collider2, bool ___2_ignore, const RuntimeMethod* method) 
 {
 	typedef void (*Physics2D_IgnoreCollision_mA05835421D23AACF69E76082124F4F983B9E2BDD_ftn) (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52*, Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52*, bool);
@@ -1157,7 +1157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D_IgnoreCollision_mA05835421D23A
 	_il2cpp_icall_func = (Physics2D_IgnoreCollision_mA05835421D23AACF69E76082124F4F983B9E2BDD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Physics2D::IgnoreCollision(UnityEngine.Collider2D,UnityEngine.Collider2D,System.Boolean)");
 	_il2cpp_icall_func(___0_collider1, ___1_collider2, ___2_ignore);
 }
-// Method Definition Index: 79998
+// Method Definition Index: 80072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA Physics2D_Raycast_mBECD869F0788D0B0E665BBA3611362E6D5CD2947 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1189,7 +1189,7 @@ IL_001a:
 		return L_4;
 	}
 }
-// Method Definition Index: 79999
+// Method Definition Index: 80073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA Physics2D_Raycast_m758FB450001D6EA88A3C51FA2E93D98988B7F630 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1222,7 +1222,7 @@ IL_0016:
 		return L_5;
 	}
 }
-// Method Definition Index: 80000
+// Method Definition Index: 80074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA Physics2D_Raycast_m5BF2A59AAEE0B488FB3ECD1D3AF3537FD7789E7F (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1262,7 +1262,7 @@ IL_0026:
 		return L_8;
 	}
 }
-// Method Definition Index: 80001
+// Method Definition Index: 80075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA Physics2D_Raycast_mBB6A989AFAFE4B32BEC77543F3121C4ED38A1710 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, int32_t ___3_layerMask, float ___4_minDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1303,7 +1303,7 @@ IL_0023:
 		return L_9;
 	}
 }
-// Method Definition Index: 80002
+// Method Definition Index: 80076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA Physics2D_Raycast_m03D33CAF9BCCAE7DC2863E263FB8CEFAD87D5E27 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, float ___2_distance, int32_t ___3_layerMask, float ___4_minDepth, float ___5_maxDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1345,7 +1345,7 @@ IL_0020:
 		return L_10;
 	}
 }
-// Method Definition Index: 80003
+// Method Definition Index: 80077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Physics2D_Raycast_m56E5CBDA49BD64A3A775F4850F18F66A07D1085B (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___2_contactFilter, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___3_results, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1378,7 +1378,7 @@ IL_001a:
 		return L_6;
 	}
 }
-// Method Definition Index: 80004
+// Method Definition Index: 80078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Physics2D_Raycast_m65A222170C18F173E06309A784D736E5C6EB32D6 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___2_contactFilter, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___3_results, float ___4_distance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1412,7 +1412,7 @@ IL_0017:
 		return L_7;
 	}
 }
-// Method Definition Index: 80005
+// Method Definition Index: 80079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Physics2D_Raycast_mB49B869989A276E025785C0FB53443551B3C8B17 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_direction, ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ___2_contactFilter, List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324* ___3_results, float ___4_distance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1446,7 +1446,7 @@ IL_0017:
 		return L_7;
 	}
 }
-// Method Definition Index: 80006
+// Method Definition Index: 80080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA Physics2D_CircleCast_mFDA98331D99470872994987932FCAF8E2539467A (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_origin, float ___1_radius, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_direction, float ___3_distance, int32_t ___4_layerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1487,7 +1487,7 @@ IL_0028:
 		return L_9;
 	}
 }
-// Method Definition Index: 80007
+// Method Definition Index: 80081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* Physics2D_GetRayIntersectionAll_mE44882D00E63761758A1C10D8579F5AD5A027C14 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1517,7 +1517,7 @@ IL_0023:
 		return L_4;
 	}
 }
-// Method Definition Index: 80008
+// Method Definition Index: 80082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* Physics2D_GetRayIntersectionAll_m71F010CB1DF9881A6AEC32123FFD7BFDE32A59EA (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, float ___1_distance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1548,7 +1548,7 @@ IL_001f:
 		return L_5;
 	}
 }
-// Method Definition Index: 80009
+// Method Definition Index: 80083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* Physics2D_GetRayIntersectionAll_m1584C9C6ABD1AAEB6235830DC16D05C4566EB80D (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, float ___1_distance, int32_t ___2_layerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1580,7 +1580,7 @@ IL_001e:
 		return L_6;
 	}
 }
-// Method Definition Index: 80010
+// Method Definition Index: 80084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* Physics2D_GetRayIntersectionAll_Internal_m98C9407CC390AA4F560D4BAFE3D35FE06DD3400C (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9 ___0_physicsScene, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_direction, float ___3_distance, int32_t ___4_layerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1598,7 +1598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2DU5BU5D_t28739C686586993113318B63C
 		return L_2;
 	}
 }
-// Method Definition Index: 80011
+// Method Definition Index: 80085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Physics2D_GetRayIntersectionNonAlloc_mC17430C3F478EAB0F15D96D10F25CE5E42579A5C (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___1_results, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1629,7 +1629,7 @@ IL_001a:
 		return L_4;
 	}
 }
-// Method Definition Index: 80012
+// Method Definition Index: 80086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Physics2D_GetRayIntersectionNonAlloc_m77BF66F763DE34E2BA96789FC7AC5C2797037228 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___1_results, float ___2_distance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1661,7 +1661,7 @@ IL_0016:
 		return L_5;
 	}
 }
-// Method Definition Index: 80013
+// Method Definition Index: 80087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Physics2D_GetRayIntersectionNonAlloc_mB7942B73C8B86F369262FC3B87F080132E7A369C (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___1_results, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1694,7 +1694,7 @@ IL_0015:
 		return L_6;
 	}
 }
-// Method Definition Index: 80014
+// Method Definition Index: 80088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D__cctor_m7B7A8EEEE744CE27534A7ADF12F31A4E376544E8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1713,7 +1713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D__cctor_m7B7A8EEEE744CE27534A7A
 		return;
 	}
 }
-// Method Definition Index: 80015
+// Method Definition Index: 80089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* Physics2D_GetRayIntersectionAll_Internal_Injected_mB7BCACD0A0B90CCD4CD4041764BD19B95D553E2B (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9* ___0_physicsScene, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_direction, float ___3_distance, int32_t ___4_layerMask, const RuntimeMethod* method) 
 {
 	typedef RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* (*Physics2D_GetRayIntersectionAll_Internal_Injected_mB7BCACD0A0B90CCD4CD4041764BD19B95D553E2B_ftn) (PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, float, int32_t);
@@ -1847,7 +1847,7 @@ IL2CPP_EXTERN_C void ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14_m
 IL2CPP_EXTERN_C void ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14_marshal_com_cleanup(ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 80016
+// Method Definition Index: 80090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_CheckConsistency_mD918F11F977EA35E87CF491F7AE8794F5D01DF72 (ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1862,7 +1862,7 @@ IL2CPP_EXTERN_C  void ContactFilter2D_CheckConsistency_mD918F11F977EA35E87CF491F
 	_thisAdjusted = reinterpret_cast<ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*>(__this + _offset);
 	ContactFilter2D_CheckConsistency_mD918F11F977EA35E87CF491F7AE8794F5D01DF72(_thisAdjusted, method);
 }
-// Method Definition Index: 80017
+// Method Definition Index: 80091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_SetLayerMask_mC3FBC2D806C1A3ACB2D060CE48F8157505E42F9B (ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* __this, LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_layerMask, const RuntimeMethod* method) 
 {
 	{
@@ -1879,7 +1879,7 @@ IL2CPP_EXTERN_C  void ContactFilter2D_SetLayerMask_mC3FBC2D806C1A3ACB2D060CE48F8
 	_thisAdjusted = reinterpret_cast<ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*>(__this + _offset);
 	ContactFilter2D_SetLayerMask_mC3FBC2D806C1A3ACB2D060CE48F8157505E42F9B(_thisAdjusted, ___0_layerMask, method);
 }
-// Method Definition Index: 80018
+// Method Definition Index: 80092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F9292236F18 (ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* __this, float ___0_minDepth, float ___1_maxDepth, const RuntimeMethod* method) 
 {
 	{
@@ -1899,7 +1899,7 @@ IL2CPP_EXTERN_C  void ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F92
 	_thisAdjusted = reinterpret_cast<ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*>(__this + _offset);
 	ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F9292236F18(_thisAdjusted, ___0_minDepth, ___1_maxDepth, method);
 }
-// Method Definition Index: 80019
+// Method Definition Index: 80093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14 ContactFilter2D_CreateLegacyFilter_m7DF755B13D055FA510CB7F57A2CA5B45EAD161E2 (int32_t ___0_layerMask, float ___1_minDepth, float ___2_maxDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1936,7 +1936,7 @@ IL_0031:
 		return L_6;
 	}
 }
-// Method Definition Index: 80020
+// Method Definition Index: 80094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_CheckConsistency_Injected_mE330C47C2583E5057F24B9E7B2D8F4B63B2B7A7C (ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14* ___0__unity_self, const RuntimeMethod* method) 
 {
 	typedef void (*ContactFilter2D_CheckConsistency_Injected_mE330C47C2583E5057F24B9E7B2D8F4B63B2B7A7C_ftn) (ContactFilter2D_t54A8515C326BF7DA16E5DE97EA7D3CD9B2F77F14*);
@@ -2181,7 +2181,7 @@ IL2CPP_EXTERN_C void Collision2D_t81E83212C969FDDE2AB84EBCA31502818EEAB85B_marsh
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80021
+// Method Definition Index: 80095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointAngleLimits2D_set_min_m9EBCBBF3B7D4126158DB2405A2C2333DFFE48B29 (JointAngleLimits2D_t5F138B6393E6861E597641646C598F34C8A095EB* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2197,7 +2197,7 @@ IL2CPP_EXTERN_C  void JointAngleLimits2D_set_min_m9EBCBBF3B7D4126158DB2405A2C233
 	_thisAdjusted = reinterpret_cast<JointAngleLimits2D_t5F138B6393E6861E597641646C598F34C8A095EB*>(__this + _offset);
 	JointAngleLimits2D_set_min_m9EBCBBF3B7D4126158DB2405A2C2333DFFE48B29(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 80022
+// Method Definition Index: 80096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointAngleLimits2D_set_max_m8264B45D23F709BA60BEF19645569D105A623D6F (JointAngleLimits2D_t5F138B6393E6861E597641646C598F34C8A095EB* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2221,7 +2221,7 @@ IL2CPP_EXTERN_C  void JointAngleLimits2D_set_max_m8264B45D23F709BA60BEF19645569D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80023
+// Method Definition Index: 80097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -2247,7 +2247,7 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RaycastHit2D_
 	_returnValue = RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 80024
+// Method Definition Index: 80098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2 (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -2273,7 +2273,7 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RaycastHit2D_
 	_returnValue = RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 80025
+// Method Definition Index: 80099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613 (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -2298,7 +2298,7 @@ IL2CPP_EXTERN_C  float RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB654884596
 	_returnValue = RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 80026
+// Method Definition Index: 80100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2341,7 +2341,7 @@ IL2CPP_EXTERN_C  Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* RaycastHi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80027
+// Method Definition Index: 80101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Rigidbody2D_get_position_m07070C4416DFE2229070F95B349E411AE4869276 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -2352,7 +2352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_0;
 	}
 }
-// Method Definition Index: 80028
+// Method Definition Index: 80102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_m03C92F26F561D48050FBA840754F584AA7F415EF (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2360,7 +2360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_m03C92F26F561D4
 		return;
 	}
 }
-// Method Definition Index: 80029
+// Method Definition Index: 80103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Rigidbody2D_get_rotation_m3F6D0437733C0D9E4A3DF4196F80D66B20E563AB (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, const RuntimeMethod* method) 
 {
 	typedef float (*Rigidbody2D_get_rotation_m3F6D0437733C0D9E4A3DF4196F80D66B20E563AB_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*);
@@ -2370,7 +2370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Rigidbody2D_get_rotation_m3F6D0437733C0
 	float icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 80030
+// Method Definition Index: 80104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_m7F24879BB78DA0587168B257C56DCFD248A90895 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, const RuntimeMethod* method) 
 {
 	{
@@ -2378,7 +2378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_m7F24879BB78DA0
 		return;
 	}
 }
-// Method Definition Index: 80031
+// Method Definition Index: 80105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MoveRotation_m33BC3C46E2584EB32C6E440AA4E9E58BEEEE8256 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, float ___0_angle, const RuntimeMethod* method) 
 {
 	{
@@ -2387,7 +2387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MoveRotation_m33BC3C46E2584E
 		return;
 	}
 }
-// Method Definition Index: 80032
+// Method Definition Index: 80106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MoveRotation_Angle_m067E8C2931E2C4BF400FC012A2D86A459D18E76E (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, float ___0_angle, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_MoveRotation_Angle_m067E8C2931E2C4BF400FC012A2D86A459D18E76E_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, float);
@@ -2396,7 +2396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MoveRotation_Angle_m067E8C29
 	_il2cpp_icall_func = (Rigidbody2D_MoveRotation_Angle_m067E8C2931E2C4BF400FC012A2D86A459D18E76E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::MoveRotation_Angle(System.Single)");
 	_il2cpp_icall_func(__this, ___0_angle);
 }
-// Method Definition Index: 80033
+// Method Definition Index: 80107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Rigidbody2D_get_mass_mC8854F0E26585A11D4420B9F5570AB4E75192AE1 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, const RuntimeMethod* method) 
 {
 	typedef float (*Rigidbody2D_get_mass_mC8854F0E26585A11D4420B9F5570AB4E75192AE1_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*);
@@ -2406,7 +2406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Rigidbody2D_get_mass_mC8854F0E26585A11D
 	float icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 80034
+// Method Definition Index: 80108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_mass_mC2E292A62264D605120FC65C713BB35503CE35B1 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_set_mass_mC2E292A62264D605120FC65C713BB35503CE35B1_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, float);
@@ -2415,7 +2415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_mass_mC2E292A62264D60512
 	_il2cpp_icall_func = (Rigidbody2D_set_mass_mC2E292A62264D605120FC65C713BB35503CE35B1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_mass(System.Single)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 80035
+// Method Definition Index: 80109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, float);
@@ -2424,7 +2424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_gravityScale_mAFD1A72661
 	_il2cpp_icall_func = (Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_gravityScale(System.Single)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 80036
+// Method Definition Index: 80110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, int32_t);
@@ -2433,7 +2433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_bodyType_mE2FAC2D78B06B4
 	_il2cpp_icall_func = (Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 80037
+// Method Definition Index: 80111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_isKinematic_m7C68AB4CFB6D301F0EDF0BFF66FB121ED3CC7853 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B2_0 = NULL;
@@ -2468,7 +2468,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 80038
+// Method Definition Index: 80112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D__ctor_mFF16B8ADAAE2FFD5FD4FBE3F412FC9E8FBBDBC88 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2476,7 +2476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D__ctor_mFF16B8ADAAE2FFD5FD4FB
 		return;
 	}
 }
-// Method Definition Index: 80039
+// Method Definition Index: 80113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_get_position_Injected_m89CBCD6C0EDACABB4A20B2B22958CEDAE030DC44 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_ret, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_get_position_Injected_m89CBCD6C0EDACABB4A20B2B22958CEDAE030DC44_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
@@ -2485,7 +2485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_get_position_Injected_m89CBC
 	_il2cpp_icall_func = (Rigidbody2D_get_position_Injected_m89CBCD6C0EDACABB4A20B2B22958CEDAE030DC44_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::get_position_Injected(UnityEngine.Vector2&)");
 	_il2cpp_icall_func(__this, ___0_ret);
 }
-// Method Definition Index: 80040
+// Method Definition Index: 80114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
@@ -2494,7 +2494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_Injected_m5D2AC
 	_il2cpp_icall_func = (Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_position_Injected(UnityEngine.Vector2&)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 80041
+// Method Definition Index: 80115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_position, const RuntimeMethod* method) 
 {
 	typedef void (*Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
@@ -2511,7 +2511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_Injected_m7B6D0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80042
+// Method Definition Index: 80116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48 (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48_ftn) (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52*, bool);
@@ -2520,7 +2520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_isTrigger_m19D5227BAB5D41
 	_il2cpp_icall_func = (Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider2D::set_isTrigger(System.Boolean)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 80043
+// Method Definition Index: 80117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_offset_m416A5FDD11A7E07322418D1869AEFF9F1295913F (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2528,7 +2528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_offset_m416A5FDD11A7E0732
 		return;
 	}
 }
-// Method Definition Index: 80044
+// Method Definition Index: 80118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_offset_Injected_m9C48213A56B5D2DA5DC8873D650E602ECBCFCC96 (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Collider2D_set_offset_Injected_m9C48213A56B5D2DA5DC8873D650E602ECBCFCC96_ftn) (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
@@ -2545,7 +2545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_offset_Injected_m9C48213A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80045
+// Method Definition Index: 80119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleCollider2D_set_radius_m468ECCD06634C48E6837A55B9E8D056BBF15FC52 (CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*CircleCollider2D_set_radius_m468ECCD06634C48E6837A55B9E8D056BBF15FC52_ftn) (CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786*, float);
@@ -2562,7 +2562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleCollider2D_set_radius_m468ECCD0663
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80046
+// Method Definition Index: 80120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider2D_set_size_mA69E48F639FFB614B5FC083D3FEED3DF78A9FF46 (BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2570,7 +2570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider2D_set_size_mA69E48F639FFB614
 		return;
 	}
 }
-// Method Definition Index: 80047
+// Method Definition Index: 80121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider2D_set_size_Injected_mE40FB02D46FAF468524BBC5BDF7BE468E7F85B9E (BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*BoxCollider2D_set_size_Injected_mE40FB02D46FAF468524BBC5BDF7BE468E7F85B9E_ftn) (BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
@@ -2587,7 +2587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider2D_set_size_Injected_mE40FB02
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80048
+// Method Definition Index: 80122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider2D_SetPath_mDF03B6FDAE81E25C985F9BA6D372D949A6D9A1C1 (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* __this, int32_t ___0_index, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_points, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -2619,7 +2619,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 80049
+// Method Definition Index: 80123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* __this, int32_t ___0_index, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_points, const RuntimeMethod* method) 
 {
 	typedef void (*PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D_ftn) (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E*, int32_t, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*);
@@ -2636,7 +2636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider2D_SetPath_Internal_m868D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80050
+// Method Definition Index: 80124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* Joint2D_get_connectedBody_m2ACC7B59AFFF74F080B96DBBC42866B15F6EA125 (Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843* __this, const RuntimeMethod* method) 
 {
 	typedef Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* (*Joint2D_get_connectedBody_m2ACC7B59AFFF74F080B96DBBC42866B15F6EA125_ftn) (Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843*);
@@ -2646,7 +2646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-// Method Definition Index: 80051
+// Method Definition Index: 80125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joint2D_set_connectedBody_m96BC3C64A153EAB29F7C4BE4435A3E15B9FE6DED (Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843* __this, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*Joint2D_set_connectedBody_m96BC3C64A153EAB29F7C4BE4435A3E15B9FE6DED_ftn) (Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843*, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*);
@@ -2663,7 +2663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joint2D_set_connectedBody_m96BC3C64A153E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80052
+// Method Definition Index: 80126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredJoint2D_set_connectedAnchor_mB07C956CA00DD5DE7DC59DFD075A415120E2803D (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2671,7 +2671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredJoint2D_set_connectedAnchor_mB07
 		return;
 	}
 }
-// Method Definition Index: 80053
+// Method Definition Index: 80127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredJoint2D_set_connectedAnchor_Injected_m14F1FCD64FE2008CEE123577D95C61D5033B3318 (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*AnchoredJoint2D_set_connectedAnchor_Injected_m14F1FCD64FE2008CEE123577D95C61D5033B3318_ftn) (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
@@ -2688,7 +2688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredJoint2D_set_connectedAnchor_Inje
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80054
+// Method Definition Index: 80128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_useLimits_m8E1A4EA6EE6850F7960C939DBFD0F8ED1AECF086 (HingeJoint2D_t713F69DA7EC9A05A9425DE3AE68CBFC5F8DD8839* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*HingeJoint2D_set_useLimits_m8E1A4EA6EE6850F7960C939DBFD0F8ED1AECF086_ftn) (HingeJoint2D_t713F69DA7EC9A05A9425DE3AE68CBFC5F8DD8839*, bool);
@@ -2697,7 +2697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_useLimits_m8E1A4EA6EE68
 	_il2cpp_icall_func = (HingeJoint2D_set_useLimits_m8E1A4EA6EE6850F7960C939DBFD0F8ED1AECF086_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.HingeJoint2D::set_useLimits(System.Boolean)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-// Method Definition Index: 80055
+// Method Definition Index: 80129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_limits_mD948CC50F20045FA0A5CBAE57B38D05E984FE3BB (HingeJoint2D_t713F69DA7EC9A05A9425DE3AE68CBFC5F8DD8839* __this, JointAngleLimits2D_t5F138B6393E6861E597641646C598F34C8A095EB ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2705,7 +2705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_limits_mD948CC50F20045F
 		return;
 	}
 }
-// Method Definition Index: 80056
+// Method Definition Index: 80130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_limits_Injected_mC074612E730D7159523FDFE834908EADAD4D3AF1 (HingeJoint2D_t713F69DA7EC9A05A9425DE3AE68CBFC5F8DD8839* __this, JointAngleLimits2D_t5F138B6393E6861E597641646C598F34C8A095EB* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*HingeJoint2D_set_limits_Injected_mC074612E730D7159523FDFE834908EADAD4D3AF1_ftn) (HingeJoint2D_t713F69DA7EC9A05A9425DE3AE68CBFC5F8DD8839*, JointAngleLimits2D_t5F138B6393E6861E597641646C598F34C8A095EB*);
@@ -2717,7 +2717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint2D_set_limits_Injected_mC07461
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 54923
+// Method Definition Index: 54962
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -2734,7 +2734,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 54924
+// Method Definition Index: 54963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;

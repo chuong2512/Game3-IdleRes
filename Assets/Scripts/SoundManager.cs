@@ -39,8 +39,9 @@ public class SoundManager : Singleton<SoundManager>
 	private void Start()
 	{
 		this.soundSetting = Singleton<DataManager>.Instance.database.soundSetting;
-		this.musicSource.mute = this.soundSetting.music;
-		this.soundSource.mute = this.soundSetting.sound;
+		
+		this.musicSource.mute = !this.soundSetting.music;
+		this.soundSource.mute = !this.soundSetting.sound;
 		this.setting.MusicChange(this.soundSetting.music);
 		this.setting.SoundChange(this.soundSetting.sound);
 	}

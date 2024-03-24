@@ -349,7 +349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DiscreteEvaluationAttributeUtilities_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81288
+// Method Definition Index: 81368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t2513809E5905A2EC3232C9FCAE5A95B601B92AFF UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m2175F39F61616C1F602A6581BFEDC408C0B170A7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -383,7 +383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t2513809E5905A2EC3232C9FCAE5A9
 		return L_6;
 	}
 }
-// Method Definition Index: 81289
+// Method Definition Index: 81369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0EB629EB7250A8D7F8E9019861342F081C732BE0 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDBFAB5B2397C41FB2001145FEFF1CC40EBEA02D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -481,7 +481,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t2513809E5905A2EC3232C9FCAE5A95B601B92AFF_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81290
+// Method Definition Index: 81370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___1_aabb, const RuntimeMethod* method) 
 {
 	{
@@ -493,7 +493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetLocalAABB_m04DF2
 		return;
 	}
 }
-// Method Definition Index: 81291
+// Method Definition Index: 81371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_src, const RuntimeMethod* method) 
 {
 	{
@@ -505,7 +505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetDeformableBuffer
 		return;
 	}
 }
-// Method Definition Index: 81292
+// Method Definition Index: 81372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, intptr_t ___1_buffer, const RuntimeMethod* method) 
 {
 	{
@@ -517,7 +517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsUsingDeformableBu
 		return L_2;
 	}
 }
-// Method Definition Index: 81293
+// Method Definition Index: 81373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InternalEngineBridge_GUIUnclip_m27FB3DF164B3F05EA08901BB809493F1020E28DD (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	{
@@ -528,7 +528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 81294
+// Method Definition Index: 81374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D InternalEngineBridge_GetGUIClipTopMostRect_mBBC6097FFBA3285ECB7481A26AB4C99AA42973F4 (const RuntimeMethod* method) 
 {
 	{
@@ -538,7 +538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_0;
 	}
 }
-// Method Definition Index: 81295
+// Method Definition Index: 81375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D InternalEngineBridge_GetGUIClipTopRect_m0C6313F56EEBC59EFC622F360FBA67BB3F546ABF (const RuntimeMethod* method) 
 {
 	{
@@ -548,7 +548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_0;
 	}
 }
-// Method Definition Index: 81296
+// Method Definition Index: 81376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D InternalEngineBridge_GetGUIClipVisibleRect_mD15733C522038DA0EB76CFED307EC365867FCD3E (const RuntimeMethod* method) 
 {
 	{
@@ -558,7 +558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		return L_0;
 	}
 }
-// Method Definition Index: 81297
+// Method Definition Index: 81377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3 (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* ___0_spriteRenderers, NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 ___1_buffers, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_bufferSizes, NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 ___3_bounds, const RuntimeMethod* method) 
 {
 	{
@@ -572,7 +572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchDeformableB
 		return;
 	}
 }
-// Method Definition Index: 81298
+// Method Definition Index: 81378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44 (float ___0_f, const RuntimeMethod* method) 
 {
 	{
@@ -583,7 +583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InternalEngineBridge_ConvertFloatToIn
 		return L_1;
 	}
 }
-// Method Definition Index: 81299
+// Method Definition Index: 81379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148 (int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
