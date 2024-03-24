@@ -9,7 +9,6 @@ namespace ChuongCustom
     {
         [SerializeField] private int id = 0;
         [SerializeField] private int _amount = 1, _price = 500;
-        [SerializeField] private Button _button;
         [SerializeField] private Text _amountText, _priceText;
 
         private PlayerData _player;

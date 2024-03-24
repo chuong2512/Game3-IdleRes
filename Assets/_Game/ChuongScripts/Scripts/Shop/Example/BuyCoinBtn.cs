@@ -7,7 +7,6 @@ namespace ChuongCustom
     public class BuyCoinBtn : BaseIAPButton
     {
         [SerializeField] private int _amount;
-        [SerializeField] private Button _button;
         [SerializeField] private TextMeshProUGUI _amountText;
 
         private PlayerData _player;
@@ -15,8 +14,6 @@ namespace ChuongCustom
         protected override void OnStart()
         {
             _player = GameDataManager.Instance.playerData;
-
-            _button.onClick.AddListener(OnClickButton);
 
             _amountText.text = $"x{_amount}";
         }
