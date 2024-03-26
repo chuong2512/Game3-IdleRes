@@ -69,6 +69,11 @@ public class InAppPurchase : MonoBehaviour, IStoreListener
         for (int i = 0; i < this.products.Count; i++)
         {
             configurationBuilder.AddProduct(this.products[i].name, this.products[i].productType);
+
+            if (products[i].productType == ProductType.Consumable)
+            {
+                SamsungIAP.Instance.ConsumePurchasedItems(products[i].name, null);
+            }
         }
 
         UnityPurchasing.Initialize(this, configurationBuilder);
@@ -99,14 +104,6 @@ public class InAppPurchase : MonoBehaviour, IStoreListener
 
     public void BuyProductID(string productID, Action buyDone)
     {
-        SamsungIAP.Instance.StartPayment(productID, String.Empty, info =>
-        {
-            buyDone?.Invoke();
-            
-            SamsungIAP.Instance.ConsumePurchasedItems(productID, null);
-        });
-        return;
-
         if (!this.IsInitialized())
         {
             return;
@@ -118,6 +115,14 @@ public class InAppPurchase : MonoBehaviour, IStoreListener
         {
             InAppPurchase.storeController.InitiatePurchase(product);
         }
+
+        SamsungIAP.Instance.StartPayment(productID, String.Empty, info =>
+        {
+            buyDone?.Invoke();
+
+            SamsungIAP.Instance.ConsumePurchasedItems(productID, null);
+        });
+        return;
     }
 
     public void OnInitialized(IStoreController controller, IExtensionProvider extensions)
