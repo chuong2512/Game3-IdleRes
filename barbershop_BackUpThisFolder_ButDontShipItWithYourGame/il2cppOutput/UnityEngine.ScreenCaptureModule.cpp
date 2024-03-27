@@ -95,7 +95,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m35F14D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81224
+// Method Definition Index: 81234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m37F1E4165A2EF8B8F30294E91DC0CCA9CE0DD18A (String_t* ___0_filename, int32_t ___1_superSize, const RuntimeMethod* method) 
 {
 	{
@@ -105,7 +105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m37F1E41
 		return;
 	}
 }
-// Method Definition Index: 81225
+// Method Definition Index: 81235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m35F14D593665968FE8F449104B66CE35EB22344D (String_t* ___0_filename, int32_t ___1_superSize, int32_t ___2_CaptureMode, const RuntimeMethod* method) 
 {
 	typedef void (*ScreenCapture_CaptureScreenshot_m35F14D593665968FE8F449104B66CE35EB22344D_ftn) (String_t*, int32_t, int32_t);

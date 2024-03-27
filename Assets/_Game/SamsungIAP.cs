@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -40,9 +41,9 @@ namespace ChuongCustom
     [System.Serializable]
     public class ErrorVo
     {
-        public int errorCode    = 1;
-        public string errorString  = "";
-        public string extraString  = "";
+        public int errorCode = 1;
+        public string errorString = "";
+        public string extraString = "";
     }
 
     [System.Serializable]
@@ -152,6 +153,7 @@ namespace ChuongCustom
         public string mStatusString = "";
         public int mStatusCode = 0;
     }
+
     #endregion
 
     #region UnityEvents
@@ -193,17 +195,13 @@ namespace ChuongCustom
         public System.Action<ConsumedList> onConsumePurchasedItemListener;
         public System.Action<OwnedProductList> onGetOwenedListListener;
 
-        [SerializeField]
-        public OnGetProductsEvent onGetProductsDetails;
+        [SerializeField] public OnGetProductsEvent onGetProductsDetails;
 
-        [SerializeField]
-        public OnPaymentEvent onPayment;
+        [SerializeField] public OnPaymentEvent onPayment;
 
-        [SerializeField]
-        public OnConsumeEvent onConsume;
+        [SerializeField] public OnConsumeEvent onConsume;
 
-        [SerializeField]
-        public OnGetOwenedListEvent onGetOwenedList;
+        [SerializeField] public OnGetOwenedListEvent onGetOwenedList;
 
         public static SamsungIAP Instance
         {
@@ -224,7 +222,8 @@ namespace ChuongCustom
             {
                 Debug.Log("Awake");
 
-                using (AndroidJavaClass cls = new AndroidJavaClass("com.samsung.android.sdk.iap.lib.activity.SamsungIAPFragment"))
+                using (AndroidJavaClass cls =
+                       new AndroidJavaClass("com.samsung.android.sdk.iap.lib.activity.SamsungIAPFragment"))
                 {
                     //Initialize IAP
                     cls.CallStatic("init", gameObject.name);
@@ -249,6 +248,34 @@ namespace ChuongCustom
 
                 DontDestroyOnLoad(gameObject);
             }
+        }
+
+        private void Start()
+        {
+            GetOwnedList(ItemType.all, OnGetOwnedList);
+        }
+
+        void OnGetOwnedList(OwnedProductList _ownedProductList)
+        {
+            if (_ownedProductList.errorInfo != null)
+            {
+                if (_ownedProductList.errorInfo.errorCode == 0)
+                {
+                    // 0 means no error
+                    if (_ownedProductList.results != null)
+                    {
+                        foreach (OwnedProductVo item in _ownedProductList.results)
+                        {
+                            //consume the consumable items and OnConsume callback is triggered afterwards
+                            ConsumePurchasedItems(item.mPurchaseId, OnConsume);
+                        }
+                    }
+                }
+            }
+        }
+
+        void OnConsume(ConsumedList _consumedList)
+        {
         }
 
         public void OnError(string msg)
@@ -341,7 +368,7 @@ namespace ChuongCustom
                 Debug.Log("onGetOwnedProducts: " + ownedList.results[i].mItemName);
             }
 
-            if(onGetOwenedList != null)
+            if (onGetOwenedList != null)
             {
                 onGetOwenedList.Invoke(ownedList);
             }
@@ -360,7 +387,7 @@ namespace ChuongCustom
                 Debug.Log("OnConsumePurchasedItems: " + consumedList.results[i].mPurchaseId);
             }
 
-            if(onConsume != null)
+            if (onConsume != null)
             {
                 onConsume.Invoke(consumedList);
             }
@@ -373,14 +400,14 @@ namespace ChuongCustom
         {
             Debug.Log("onPayment: " + resultJSON);
             PurchasedInfo purchasedInfo = JsonUtility.FromJson<PurchasedInfo>(resultJSON);
-               
-			if( purchasedInfo != null )
-			{
-				if( purchasedInfo.results.mPassThroughParam != savedPassthroughParam )
-		            Debug.Log("PassThroughParam is different!!!");
-			}
 
-            if(onPayment != null)
+            if (purchasedInfo != null)
+            {
+                if (purchasedInfo.results.mPassThroughParam != savedPassthroughParam)
+                    Debug.Log("PassThroughParam is different!!!");
+            }
+
+            if (onPayment != null)
             {
                 onPayment.Invoke(purchasedInfo);
             }
@@ -393,29 +420,30 @@ namespace ChuongCustom
 
         #region Editor
 
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         [CustomEditor(typeof(SamsungIAP))]
-        public class SamsungIAPManagerEditor : Editor
+        public class
+            SamsungIAPManagerEditor : Editor
         {
             public override void OnInspectorGUI()
             {
                 var ui = target as SamsungIAP;
 
                 EditorGUILayout.HelpBox("" +
-                    "Samsung IAP have two modes\n" +
-                    "\n" +
-                    "TestMode:\n" +
-                    "You can test your application without real IAP transaction.\n" +
-                    "\n" +
-                    "ProductionMode:\n" +
-                    "Turn on production mode when submit your game to the store", MessageType.Info);
+                                        "Samsung IAP have two modes\n" +
+                                        "\n" +
+                                        "TestMode:\n" +
+                                        "You can test your application without real IAP transaction.\n" +
+                                        "\n" +
+                                        "ProductionMode:\n" +
+                                        "Turn on production mode when submit your game to the store", MessageType.Info);
 
                 ui.prodBuild = GUILayout.Toggle(ui.prodBuild, "Production Build");
 
                 if (!ui.prodBuild)
                 {
                     EditorGUILayout.LabelField("Choose Result for Test Purcahse");
-                    ui.testPurchaseResult = (TestResult)EditorGUILayout.EnumPopup(ui.testPurchaseResult);
+                    ui.testPurchaseResult = (TestResult) EditorGUILayout.EnumPopup(ui.testPurchaseResult);
                 }
 
                 EditorGUILayout.Separator();
@@ -430,7 +458,7 @@ namespace ChuongCustom
                 EditorGUILayout.Separator();
             }
         }
-        #endif
+#endif
 
         #endregion
     }

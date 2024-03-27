@@ -738,7 +738,7 @@ inline void List_1_AddWithResize_m3315453B2B00D694353A29FE8E49681D72763A1D (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81189
+// Method Definition Index: 81199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m65721521873C0894B75820E4DC934F47E068495D (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -756,7 +756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m65721521873C0894B
 		return;
 	}
 }
-// Method Definition Index: 81190
+// Method Definition Index: 81200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C10463085599131EA2A7A488C0AF (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, RuntimeObject* ___0_timeProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -840,7 +840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler__ctor_m3F34A80C3965C1046
 		return;
 	}
 }
-// Method Definition Index: 81191
+// Method Definition Index: 81201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ActionScheduler_ScheduleAction_m6D586ADFCCA974FEBA1D7E23AA3D3DBBA517F8CD (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, double ___1_delaySeconds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1008,7 +1008,7 @@ IL_00bc:
 		return L_29;
 	}
 }
-// Method Definition Index: 81192
+// Method Definition Index: 81202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_CancelAction_mDC93985AECBE933318100A3BC5530E1D63F37875 (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, int64_t ___0_actionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1104,7 +1104,7 @@ IL_004d:
 		return;
 	}
 }
-// Method Definition Index: 81193
+// Method Definition Index: 81203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_ExecuteExpiredActions_mB683F55950DD543D90A479DF7E68539969F2B48C (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1393,7 +1393,7 @@ IL_0104:
 		return;
 	}
 }
-// Method Definition Index: 81194
+// Method Definition Index: 81204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_UpdateCurrentPlayerLoopWith_m32DBF6F37F3D8776484265E95830FEFA40C6A230 (List_1_tB751FDCEDAE7A97430AD924824F5D0193A720E52* ___0_subSystemList, PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F ___1_currentPlayerLoop, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1417,7 +1417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_UpdateCurrentPlayerLoopW
 		return;
 	}
 }
-// Method Definition Index: 81195
+// Method Definition Index: 81205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionScheduler_JoinPlayerLoopSystem_mB998001E51285B4DF2406DE197A3A5377BD62892 (ActionScheduler_t25AE26866357EBC70F6698FCD3E0B6DBE7473154* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1480,7 +1480,7 @@ IL_0033:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81196
+// Method Definition Index: 81206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumBinaryHeap__ctor_mC63658A36EB912677E6346A2991932B83CED0B5F (MinimumBinaryHeap_tA55F58E6B1D3F482C11529BAB4C1D56F5BF745FE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1496,7 +1496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinimumBinaryHeap__ctor_mC63658A36EB9126
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81215
+// Method Definition Index: 81225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocation__ctor_mB7D79780A933DBF3A750A1FABB2DAA45852513BD (ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1512,7 +1512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocation__ctor_mB7D79780A933D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81216
+// Method Definition Index: 81226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScheduledInvocationComparer_Compare_m288DA5B3B9D15E393A57ADABBADD311975DD9FE4 (ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2* __this, ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* ___0_x, ScheduledInvocation_t049B2F607AC8AAA60877C47F1F9D5F8EBDBA0B93* ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1604,7 +1604,7 @@ IL_0037:
 		return L_15;
 	}
 }
-// Method Definition Index: 81217
+// Method Definition Index: 81227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocationComparer__ctor_mBC023A46362D70B10A4FB65D8C0BB653C9F5F972 (ScheduledInvocationComparer_t785D4501646D05413E8F88FAECD14D9902742CC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1620,7 +1620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScheduledInvocationComparer__ctor_mBC023
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81219
+// Method Definition Index: 81229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D UtcTimeProvider_get_Now_m2BBC0DB7893BDC8457768D897F441264BA779A3F (UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1637,7 +1637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		return L_0;
 	}
 }
-// Method Definition Index: 81220
+// Method Definition Index: 81230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UtcTimeProvider__ctor_m0B5F5EE010F7BDBED40E139D11D931E90D82DFE2 (UtcTimeProvider_t45FE04D3C9372C9089808CBF396C87E62AA26743* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1722,7 +1722,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 81197
+// Method Definition Index: 81207
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MinimumBinaryHeap_1_get_Count_m502FCC9FFA768AF2759A364F3A8DE12A687FE49E_gshared_inline (MinimumBinaryHeap_1_tEE553DEE7A9880C6DB0CD490BFE9F1B9FC502EC2* __this, const RuntimeMethod* method) 
 {
 	{

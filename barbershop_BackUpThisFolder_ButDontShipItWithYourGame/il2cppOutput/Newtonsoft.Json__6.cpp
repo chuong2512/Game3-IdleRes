@@ -29477,7 +29477,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PropertyChangingEventHandler
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, PropertyChangingEventArgs_tD07F209045F11017F7B549C178E4AD44690B0E02*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 54271
+// Method Definition Index: 54279
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GetMemberBinder_get_Name_mCE0671772897ED1E0575E3BE2C06CAB8D52019C4_inline (GetMemberBinder_t8D02CC2255370A525D6657487C0A7EB1DDD225B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29485,7 +29485,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GetMemberBinder_get_Nam
 		return L_0;
 	}
 }
-// Method Definition Index: 54292
+// Method Definition Index: 54300
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SetMemberBinder_get_Name_mE683668DE73BFB110F155E377E26B506960A7B42_inline (SetMemberBinder_t0D70ED9A9888FF8074796DF76600BDBA3104C55F* __this, const RuntimeMethod* method) 
 {
 	{

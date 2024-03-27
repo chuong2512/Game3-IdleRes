@@ -28299,7 +28299,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C094
 		return L_0;
 	}
 }
-// Method Definition Index: 54110
+// Method Definition Index: 54118
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Type_t* ConvertBinder_get_Type_mA5BAA8C6D9E93623C37EDF0FED67DE048C908998_inline (ConvertBinder_t62EDBE2BB8CEE50ADDFB93F40969D23542DACA39* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28307,7 +28307,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Type_t* ConvertBinder_get_Type_mA
 		return L_0;
 	}
 }
-// Method Definition Index: 54080
+// Method Definition Index: 54088
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BinaryOperationBinder_get_Operation_m2FA2599E1B43F4A6127084516C2CFF7914C3349E_inline (BinaryOperationBinder_tE42809ADF29616BE196ADCAF20EA4D75D8FC0307* __this, const RuntimeMethod* method) 
 {
 	{

@@ -213,7 +213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81139
+// Method Definition Index: 81149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WWW_get_error_m6B2E4F6DB8ECC8217A112EC62AAA1D5E71AA1C93 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -313,7 +313,7 @@ IL_0087:
 		return L_20;
 	}
 }
-// Method Definition Index: 81140
+// Method Definition Index: 81150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WWW_get_text_m95F7CAAC33FD0BAB9B535E3AEAFDA36B81B3EC4F (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -396,7 +396,7 @@ IL_0057:
 		return L_11;
 	}
 }
-// Method Definition Index: 81141
+// Method Definition Index: 81151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WWW_get_url_m368B1D7D23DC22E412A3F802C6E3047760665519 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -415,7 +415,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 81142
+// Method Definition Index: 81152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WWW_get_keepWaiting_m2D6B60FD9CB9C3E86D69E87EA32953AA68AE26B9 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -453,7 +453,7 @@ IL_001d:
 		return L_3;
 	}
 }
-// Method Definition Index: 81143
+// Method Definition Index: 81153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WWW_WaitUntilDoneIfPossible_mD975AFF6737F00BB5003C5AEDBD795751F129A84 (WWW_tEADA9A43B98FC277E498F8E3206A3B8C4E5AF3FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

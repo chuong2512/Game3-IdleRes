@@ -6591,7 +6591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseCompositeField_3__cctor_m8FFF83CB1B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 64423
+// Method Definition Index: 64433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_Compare_mDFCF547B02CFC18F6C2DBE4A4C5BD9334BB68624_gshared (BaseDictionaryKeyPathProvider_1_t54D5B409B873304763C6CB6E7B56B6270C6B7D0D* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -6602,7 +6602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Siren
 		return L_2;
 	}
 }
-// Method Definition Index: 64424
+// Method Definition Index: 64434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetKeyFromPathString_m1452F16206B1F1C2274B329525C58185D65E4021_gshared (BaseDictionaryKeyPathProvider_1_t54D5B409B873304763C6CB6E7B56B6270C6B7D0D* __this, String_t* ___0_pathStr, const RuntimeMethod* method) 
 {
 	{
@@ -6614,7 +6614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_
 		return L_3;
 	}
 }
-// Method Definition Index: 64425
+// Method Definition Index: 64435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetPathStringFromKey_m00F932EB8882D0FB9AD29D223E6F771A68EE9FAC_gshared (BaseDictionaryKeyPathProvider_1_t54D5B409B873304763C6CB6E7B56B6270C6B7D0D* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) 
 {
 	{
@@ -6624,7 +6624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sir
 		return L_1;
 	}
 }
-// Method Definition Index: 64426
+// Method Definition Index: 64436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_m8E9FCF926F9B8537EB5FA42CC2DFE8A707DC7F10_gshared (BaseDictionaryKeyPathProvider_1_t54D5B409B873304763C6CB6E7B56B6270C6B7D0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6640,7 +6640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_m8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 64423
+// Method Definition Index: 64433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_Compare_m8E300EBBF53CDB74A84E1B8D95382BE1CC67F983_gshared (BaseDictionaryKeyPathProvider_1_t6D5D8D293655A6553566F4AB0AF97B6D3AF36575* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -6651,7 +6651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Siren
 		return L_2;
 	}
 }
-// Method Definition Index: 64424
+// Method Definition Index: 64434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetKeyFromPathString_mEC23B79C4CC6D51FE8DF20A677330EE50434F6C8_gshared (BaseDictionaryKeyPathProvider_1_t6D5D8D293655A6553566F4AB0AF97B6D3AF36575* __this, String_t* ___0_pathStr, const RuntimeMethod* method) 
 {
 	{
@@ -6663,7 +6663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_
 		return L_3;
 	}
 }
-// Method Definition Index: 64425
+// Method Definition Index: 64435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetPathStringFromKey_m4FBC0A71F1195CDD4408303BB90D5B6D4C06AFE9_gshared (BaseDictionaryKeyPathProvider_1_t6D5D8D293655A6553566F4AB0AF97B6D3AF36575* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) 
 {
 	{
@@ -6673,7 +6673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sir
 		return L_1;
 	}
 }
-// Method Definition Index: 64426
+// Method Definition Index: 64436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_mE806563034AEEF9BDE953BF75AFF8885AEA520A8_gshared (BaseDictionaryKeyPathProvider_1_t6D5D8D293655A6553566F4AB0AF97B6D3AF36575* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6689,7 +6689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_mE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 64423
+// Method Definition Index: 64433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_Compare_m742E4D8F71A9551989C684A61EAE826A9A732443_gshared (BaseDictionaryKeyPathProvider_1_tBDF006D493485D4905529EE0A24229C78D4D656F* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -6700,7 +6700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Siren
 		return L_2;
 	}
 }
-// Method Definition Index: 64424
+// Method Definition Index: 64434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetKeyFromPathString_mC72BD84816461B3585DFB1F5532BC0B7D3B838DC_gshared (BaseDictionaryKeyPathProvider_1_tBDF006D493485D4905529EE0A24229C78D4D656F* __this, String_t* ___0_pathStr, const RuntimeMethod* method) 
 {
 	{
@@ -6712,7 +6712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_
 		return L_3;
 	}
 }
-// Method Definition Index: 64425
+// Method Definition Index: 64435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetPathStringFromKey_m5A4B65B1E7C5C68525D2684BEBCFEA01EF106738_gshared (BaseDictionaryKeyPathProvider_1_tBDF006D493485D4905529EE0A24229C78D4D656F* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) 
 {
 	{
@@ -6722,7 +6722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sir
 		return L_1;
 	}
 }
-// Method Definition Index: 64426
+// Method Definition Index: 64436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_m21EA597081C0F8118F84DBBCB9ABF6EE613B61FE_gshared (BaseDictionaryKeyPathProvider_1_tBDF006D493485D4905529EE0A24229C78D4D656F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6738,7 +6738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_m2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 64423
+// Method Definition Index: 64433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_Compare_m164AB77F3CF34BB9730CCBC074FB7B7813A47A56_gshared (BaseDictionaryKeyPathProvider_1_t8D9A9BCE63003A3D4816E6CFE23C564B93475350* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tA6328A74EEE4D50CB786F488E9A7CEA58D6BD880 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0));
@@ -6754,7 +6754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseDictionaryKeyPathProvider_1_Siren
 		return L_6;
 	}
 }
-// Method Definition Index: 64424
+// Method Definition Index: 64434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetKeyFromPathString_mD79611F6ACAF0FFA79D0EE31DE8ECB16338B8B79_gshared (BaseDictionaryKeyPathProvider_1_t8D9A9BCE63003A3D4816E6CFE23C564B93475350* __this, String_t* ___0_pathStr, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tA6328A74EEE4D50CB786F488E9A7CEA58D6BD880 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0));
@@ -6766,7 +6766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseDictionaryKeyPathProvider_
 		return L_2;
 	}
 }
-// Method Definition Index: 64425
+// Method Definition Index: 64435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sirenix_Serialization_IDictionaryKeyPathProvider_GetPathStringFromKey_mDD026278721858D16842991A75B091A1745CBD32_gshared (BaseDictionaryKeyPathProvider_1_t8D9A9BCE63003A3D4816E6CFE23C564B93475350* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tA6328A74EEE4D50CB786F488E9A7CEA58D6BD880 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0));
@@ -6779,7 +6779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseDictionaryKeyPathProvider_1_Sir
 		return L_3;
 	}
 }
-// Method Definition Index: 64426
+// Method Definition Index: 64436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDictionaryKeyPathProvider_1__ctor_m956E5E3C69B1AE1895BEC15AEC4823BA10F0E508_gshared (BaseDictionaryKeyPathProvider_1_t8D9A9BCE63003A3D4816E6CFE23C564B93475350* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23630,7 +23630,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 54972
+// Method Definition Index: 54980
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -23646,7 +23646,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 55823
+// Method Definition Index: 55833
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;

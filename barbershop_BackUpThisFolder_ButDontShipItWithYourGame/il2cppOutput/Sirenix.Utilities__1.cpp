@@ -372,7 +372,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74551
+// Method Definition Index: 74561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityVersion__cctor_m5B7D48CE3935B6D4A26CFDFB384B7B06707B032C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -513,14 +513,14 @@ IL_00c0:
 		return;
 	}
 }
-// Method Definition Index: 74552
+// Method Definition Index: 74562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityVersion_EnsureLoaded_m01AA70CC20791AC16341761EA8A75657C26D44B7 (const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 74553
+// Method Definition Index: 74563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityVersion_IsVersionOrGreater_m2DA0FAD892D5602FEF02CB9319E89B3174E03FB2 (int32_t ___0_major, int32_t ___1_minor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -572,7 +572,7 @@ IL_001e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74562
+// Method Definition Index: 74572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnsafeUtilities_StringFromBytes_m901CC2408D7DE1837080118E5A318EC486212110 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_charLength, bool ___2_needs16BitSupport, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1035,7 +1035,7 @@ IL_01cb:
 		return L_85;
 	}
 }
-// Method Definition Index: 74563
+// Method Definition Index: 74573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtilities_StringToBytes_m8219223860FD6BCF526EE057082EC29B8F9CF894 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, String_t* ___1_value, bool ___2_needs16BitSupport, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1499,7 +1499,7 @@ IL_01ca:
 		return L_85;
 	}
 }
-// Method Definition Index: 74564
+// Method Definition Index: 74574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtilities_MemoryCopy_mA4F955FFEC2878903A94FBAC4EE481E42D1C77F4 (RuntimeObject* ___0_from, RuntimeObject* ___1_to, int32_t ___2_byteCount, int32_t ___3_fromByteOffset, int32_t ___4_toByteOffset, const RuntimeMethod* method) 
 {
 	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC V_0;

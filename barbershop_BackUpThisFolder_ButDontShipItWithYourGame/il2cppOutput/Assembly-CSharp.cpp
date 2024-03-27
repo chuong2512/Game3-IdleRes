@@ -205,6 +205,7 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 struct Configuration_tABB2DE2BA71E03BA9199DC7C97B7BD7F9505ADF2;
 struct ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D;
 struct Constant_tA860678A5A2B9CCCB3916A6578CA7809A9F35321;
+struct ConsumedList_t789AE7E2D18833263CCE52EF7E44BF6EA0ADC632;
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 struct CreationExample_t3648C205426FC2B8A3C22D1BAFD2B3084BF1E35C;
 struct DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275;
@@ -2310,6 +2311,9 @@ struct Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF  : public MulticastDel
 struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
 {
 };
+struct Action_1_t270E2A5734585040428B77BA3B87D635B81F802F  : public MulticastDelegate_t
+{
+};
 struct Action_1_t981ADB3D546655C41CBF61B0CB6DC0A30B7BB98A  : public MulticastDelegate_t
 {
 };
@@ -4305,6 +4309,8 @@ inline Products_tD87D49E78311662FB8743C3B0B0A36325BC734F5* List_1_get_Item_m9261
 	return ((  Products_tD87D49E78311662FB8743C3B0B0A36325BC734F5* (*) (List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* ConfigurationBuilder_AddProduct_m5185C9211186D4C7D0434CE373E38E76F57BD212 (ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* __this, String_t* ___0_id, int32_t ___1_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungIAP_t02453DDA41CE6A9B0992F1102D6EFC28F2D37A56* SamsungIAP_get_Instance_m8C5D8110311E5C5FE43FA4381BD594E4CC6F4255 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SamsungIAP_ConsumePurchasedItems_m3B66E4036FEAE26DD1CDF2C5CF40FB2BC0DAE8BC (SamsungIAP_t02453DDA41CE6A9B0992F1102D6EFC28F2D37A56* __this, String_t* ___0_purchaseIDs, Action_1_t270E2A5734585040428B77BA3B87D635B81F802F* ___1_listener, const RuntimeMethod* method) ;
 inline int32_t List_1_get_Count_m863894B4AD8107C6972CA4831E7F13D9C44A6527_inline (List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
@@ -4316,7 +4322,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t8C8138607558F5A5
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_localizedPriceString_m83C55E96B4BC39284D88F9BAAC64E60DFF7D408F_inline (ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* ProductCollection_get_all_m37D0E42451E883AAD88D44E70F5B2D5E56763ED7_inline (ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_m3C6C2917DD81B7C941ACC5A19C3E936874630B49 (U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SamsungIAP_t02453DDA41CE6A9B0992F1102D6EFC28F2D37A56* SamsungIAP_get_Instance_m8C5D8110311E5C5FE43FA4381BD594E4CC6F4255 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Product_get_availableToPurchase_m51BC3BC202FC9C961C758BFB56C541B5B22270D1_inline (Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* __this, const RuntimeMethod* method) ;
 inline void Action_1__ctor_mD68D5FAF8CFCAB4D32C1B5AC7ECCD96AD08D1877 (Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
@@ -23451,7 +23457,7 @@ IL_0009:
 		V_0 = L_3;
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:69>
 		V_1 = 0;
-		goto IL_004b;
+		goto IL_007a;
 	}
 
 IL_001e:
@@ -23475,31 +23481,61 @@ IL_001e:
 		NullCheck(L_4);
 		ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_13;
 		L_13 = ConfigurationBuilder_AddProduct_m5185C9211186D4C7D0434CE373E38E76F57BD212(L_4, L_8, L_12, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:69>
-		int32_t L_14 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:73>
+		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_14 = __this->___products;
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		Products_tD87D49E78311662FB8743C3B0B0A36325BC734F5* L_16;
+		L_16 = List_1_get_Item_m9261DCEDDB67241F51A5AEF36315746F8CE97085(L_14, L_15, List_1_get_Item_m9261DCEDDB67241F51A5AEF36315746F8CE97085_RuntimeMethod_var);
+		NullCheck(L_16);
+		int32_t L_17 = L_16->___productType;
+		if (L_17)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:75>
+		SamsungIAP_t02453DDA41CE6A9B0992F1102D6EFC28F2D37A56* L_18;
+		L_18 = SamsungIAP_get_Instance_m8C5D8110311E5C5FE43FA4381BD594E4CC6F4255(NULL);
+		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_19 = __this->___products;
+		int32_t L_20 = V_1;
+		NullCheck(L_19);
+		Products_tD87D49E78311662FB8743C3B0B0A36325BC734F5* L_21;
+		L_21 = List_1_get_Item_m9261DCEDDB67241F51A5AEF36315746F8CE97085(L_19, L_20, List_1_get_Item_m9261DCEDDB67241F51A5AEF36315746F8CE97085_RuntimeMethod_var);
+		NullCheck(L_21);
+		String_t* L_22 = L_21->___name;
+		NullCheck(L_18);
+		SamsungIAP_ConsumePurchasedItems_m3B66E4036FEAE26DD1CDF2C5CF40FB2BC0DAE8BC(L_18, L_22, (Action_1_t270E2A5734585040428B77BA3B87D635B81F802F*)NULL, NULL);
 	}
 
-IL_004b:
+IL_0076:
 	{
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:69>
-		int32_t L_15 = V_1;
-		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_16 = __this->___products;
-		NullCheck(L_16);
-		int32_t L_17;
-		L_17 = List_1_get_Count_m863894B4AD8107C6972CA4831E7F13D9C44A6527_inline(L_16, List_1_get_Count_m863894B4AD8107C6972CA4831E7F13D9C44A6527_RuntimeMethod_var);
-		if ((((int32_t)L_15) < ((int32_t)L_17)))
+		int32_t L_23 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_007a:
+	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:69>
+		int32_t L_24 = V_1;
+		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_25 = __this->___products;
+		NullCheck(L_25);
+		int32_t L_26;
+		L_26 = List_1_get_Count_m863894B4AD8107C6972CA4831E7F13D9C44A6527_inline(L_25, List_1_get_Count_m863894B4AD8107C6972CA4831E7F13D9C44A6527_RuntimeMethod_var);
+		if ((((int32_t)L_24) < ((int32_t)L_26)))
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:74>
-		ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_18 = V_0;
-		UnityPurchasing_Initialize_m8DCE2A7B143ACCC3AA64390B251BBE653D19500B(__this, L_18, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:75>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:79>
+		ConfigurationBuilder_tCB23D9049605117E5216D50DC18E1D459590F90D* L_27 = V_0;
+		UnityPurchasing_Initialize_m8DCE2A7B143ACCC3AA64390B251BBE653D19500B(__this, L_27, NULL);
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:80>
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteralD959AB1354055ECF94F4D0960219984DCCD3124A, (2.0f), NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:76>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:81>
 		return;
 	}
 }
@@ -23515,10 +23551,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InAppPurchase_GetLocalizePrice_mDAA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:80>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:81>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:82>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:83>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:85>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:86>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:87>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:88>
 		bool L_0;
 		L_0 = InAppPurchase_IsInitialized_m958A378FECC8DFA6D07B496041EF741ECCC9C5AB(__this, NULL);
 		if (!L_0)
@@ -23577,7 +23613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_LoadLocalizePrice_m4191647
 	ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:88>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:93>
 		RuntimeObject* L_0 = ((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeController;
 		NullCheck(L_0);
 		ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_1;
@@ -23586,7 +23622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_LoadLocalizePrice_m4191647
 		ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* L_2;
 		L_2 = ProductCollection_get_all_m37D0E42451E883AAD88D44E70F5B2D5E56763ED7_inline(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:89>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:94>
 		ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* L_3 = V_0;
 		NullCheck(L_3);
 		if ((((RuntimeArray*)L_3)->max_length))
@@ -23595,20 +23631,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_LoadLocalizePrice_m4191647
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:91>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:96>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:94>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:99>
 		V_1 = 0;
 		goto IL_003b;
 	}
 
 IL_0019:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:96>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:101>
 		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_4 = __this->___products;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
@@ -23628,14 +23664,14 @@ IL_0019:
 		NullCheck(L_6);
 		L_6->___price = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___price), (void*)L_12);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:94>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:99>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:94>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:99>
 		int32_t L_14 = V_1;
 		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_15 = __this->___products;
 		NullCheck(L_15);
@@ -23647,7 +23683,7 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:98>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:103>
 		return;
 	}
 }
@@ -23658,6 +23694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_BuyProductID_m5F77CD1FCF85
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IStoreController_tA7C537E1DC9AA11A82CBD2DD131B6552064AD667_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass12_0_U3CBuyProductIDU3Eb__0_m76990B067717DE3A5029B67BAB4EAAD45274F0C3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763_il2cpp_TypeInfo_var);
@@ -23679,24 +23717,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_BuyProductID_m5F77CD1FCF85
 		NullCheck(L_3);
 		L_3->___productID = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___productID), (void*)L_4);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:102>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:103>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:104>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:105>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:106>
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:107>
-		SamsungIAP_t02453DDA41CE6A9B0992F1102D6EFC28F2D37A56* L_5;
-		L_5 = SamsungIAP_get_Instance_m8C5D8110311E5C5FE43FA4381BD594E4CC6F4255(NULL);
+		bool L_5;
+		L_5 = InAppPurchase_IsInitialized_m958A378FECC8DFA6D07B496041EF741ECCC9C5AB(__this, NULL);
+		if (L_5)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:109>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:112>
 		U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763* L_6 = V_0;
 		NullCheck(L_6);
-		String_t* L_7 = L_6->___productID;
-		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
-		U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763* L_9 = V_0;
-		Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582* L_10 = (Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582*)il2cpp_codegen_object_new(Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582_il2cpp_TypeInfo_var);
-		Action_1__ctor_mD68D5FAF8CFCAB4D32C1B5AC7ECCD96AD08D1877(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass12_0_U3CBuyProductIDU3Eb__0_m76990B067717DE3A5029B67BAB4EAAD45274F0C3_RuntimeMethod_var), NULL);
-		NullCheck(L_5);
-		SamsungIAP_StartPayment_m6884AFE1DF4C54C5EC7357B2A3588637DF1F0227(L_5, L_7, L_8, L_10, NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:108>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = L_6->___buyDone;
+		__this->___purchased = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___purchased), (void*)L_7);
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:113>
+		RuntimeObject* L_8 = ((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeController;
+		NullCheck(L_8);
+		ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* L_9;
+		L_9 = InterfaceFuncInvoker0< ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* >::Invoke(0, IStoreController_tA7C537E1DC9AA11A82CBD2DD131B6552064AD667_il2cpp_TypeInfo_var, L_8);
+		U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763* L_10 = V_0;
+		NullCheck(L_10);
+		String_t* L_11 = L_10->___productID;
+		NullCheck(L_9);
+		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_12;
+		L_12 = ProductCollection_WithID_m823B1BBFE1B1A91B7AA2E2BDD821F0D24F0C5543(L_9, L_11, NULL);
+		V_1 = L_12;
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:114>
+		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_13 = V_1;
+		if (!L_13)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_14 = V_1;
+		NullCheck(L_14);
+		bool L_15;
+		L_15 = Product_get_availableToPurchase_m51BC3BC202FC9C961C758BFB56C541B5B22270D1_inline(L_14, NULL);
+		if (!L_15)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:116>
+		RuntimeObject* L_16 = ((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeController;
+		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_17 = V_1;
+		NullCheck(L_16);
+		InterfaceActionInvoker1< Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* >::Invoke(3, IStoreController_tA7C537E1DC9AA11A82CBD2DD131B6552064AD667_il2cpp_TypeInfo_var, L_16, L_17);
+	}
+
+IL_0055:
+	{
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:119>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:120>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:121>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:122>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:123>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:124>
+		SamsungIAP_t02453DDA41CE6A9B0992F1102D6EFC28F2D37A56* L_18;
+		L_18 = SamsungIAP_get_Instance_m8C5D8110311E5C5FE43FA4381BD594E4CC6F4255(NULL);
+		U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763* L_19 = V_0;
+		NullCheck(L_19);
+		String_t* L_20 = L_19->___productID;
+		String_t* L_21 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
+		U3CU3Ec__DisplayClass12_0_t4F187586C044C2E8E37499D877A74C138512F763* L_22 = V_0;
+		Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582* L_23 = (Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582*)il2cpp_codegen_object_new(Action_1_tB3BFF3B93A0B589C46307B6D979813221DD1F582_il2cpp_TypeInfo_var);
+		Action_1__ctor_mD68D5FAF8CFCAB4D32C1B5AC7ECCD96AD08D1877(L_23, L_22, (intptr_t)((void*)U3CU3Ec__DisplayClass12_0_U3CBuyProductIDU3Eb__0_m76990B067717DE3A5029B67BAB4EAAD45274F0C3_RuntimeMethod_var), NULL);
+		NullCheck(L_18);
+		SamsungIAP_StartPayment_m6884AFE1DF4C54C5EC7357B2A3588637DF1F0227(L_18, L_20, L_21, L_23, NULL);
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:125>
 		return;
 	}
 }
@@ -23710,15 +23808,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_OnInitialized_m11B6CC6D737
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:125>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:130>
 		RuntimeObject* L_0 = ___0_controller;
 		((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeController = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeController), (void*)L_0);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:126>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:131>
 		RuntimeObject* L_1 = ___1_extensions;
 		((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeExtensionProvider = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeExtensionProvider), (void*)L_1);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:127>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:132>
 		return;
 	}
 }
@@ -23742,7 +23840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_RestorePurchases_m4F2348B2
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B5_0 = NULL;
 	RuntimeObject* G_B5_1 = NULL;
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:131>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:136>
 		bool L_0;
 		L_0 = InAppPurchase_IsInitialized_m958A378FECC8DFA6D07B496041EF741ECCC9C5AB(__this, NULL);
 		if (L_0)
@@ -23751,13 +23849,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_RestorePurchases_m4F2348B2
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:133>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:138>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:136>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -23778,16 +23876,11 @@ IL_0009:
 
 IL_0019:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:138>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:143>
 		RuntimeObject* L_3 = ((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeExtensionProvider;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
 		L_4 = GenericInterfaceFuncInvoker0< RuntimeObject* >::Invoke(IExtensionProvider_GetExtension_TisIAppleExtensions_t41229C4C01DD93794E730B8AFB9EEEBEC33C0238_m159C341E130434DBB3ABA18D60280A50B11C6800_RuntimeMethod_var, L_3);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:139>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:140>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:141>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:142>
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:143>
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:144>
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:145>
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:146>
@@ -23795,6 +23888,11 @@ IL_0019:
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:148>
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:149>
 		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:150>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:151>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:152>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:153>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:154>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t60F19DC6E1288CD06FD0A8B5ABED9FB88165F618_il2cpp_TypeInfo_var);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_5 = ((U3CU3Ec_t60F19DC6E1288CD06FD0A8B5ABED9FB88165F618_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t60F19DC6E1288CD06FD0A8B5ABED9FB88165F618_il2cpp_TypeInfo_var))->___U3CU3E9__14_0;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_6 = L_5;
@@ -23827,7 +23925,7 @@ IL_0042:
 
 IL_0047:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:152>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:157>
 		return;
 	}
 }
@@ -23835,7 +23933,7 @@ IL_0047:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_OnInitializeFailed_m3B51E9FB316A53C1F7A89B8DA8C30F99E40D02C3 (InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52* __this, int32_t ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:156>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:161>
 		return;
 	}
 }
@@ -23859,14 +23957,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InAppPurchase_ProcessPurchase_m02FB62
 	int32_t V_0 = 0;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:172>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:177>
 		V_0 = 0;
 		goto IL_00fa;
 	}
 
 IL_0007:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:174>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:179>
 		PurchaseEventArgs_t5203D89DD89FCB37A77025275F8AD1D71CF92A39* L_0 = ___0_args;
 		NullCheck(L_0);
 		Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* L_1;
@@ -23892,7 +23990,7 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:176>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:181>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = __this->___purchased;
 		if (!L_9)
 		{
@@ -23900,7 +23998,7 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:178>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:183>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = __this->___purchased;
 		NullCheck(L_10);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_10, NULL);
@@ -23909,7 +24007,7 @@ IL_0007:
 
 IL_004b:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:180>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:185>
 		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_11 = __this->___products;
 		int32_t L_12 = V_0;
 		NullCheck(L_11);
@@ -23923,7 +24021,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:182>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:187>
 		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_15 = __this->___products;
 		int32_t L_16 = V_0;
 		NullCheck(L_15);
@@ -23932,7 +24030,7 @@ IL_004b:
 		NullCheck(L_17);
 		String_t* L_18 = L_17->___name;
 		V_1 = L_18;
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:183>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:188>
 		String_t* L_19 = V_1;
 		if (!L_19)
 		{
@@ -23940,7 +24038,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:185>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:190>
 		String_t* L_20 = V_1;
 		bool L_21;
 		L_21 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_20, _stringLiteralA6A8D6DE19E426C080B6C99F85FC670C57CB8732, NULL);
@@ -23950,7 +24048,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:187>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:192>
 		String_t* L_22 = V_1;
 		bool L_23;
 		L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_22, _stringLiteral56FBD1E16E3B572842484A62F7C4E5B062BD8F62, NULL);
@@ -23960,7 +24058,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:189>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:194>
 		il2cpp_codegen_runtime_class_init_inline(Singleton_1_t9257A8C7568CA506E35DB975FD30001737055564_il2cpp_TypeInfo_var);
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_24;
 		L_24 = Singleton_1_get_Instance_mD74FB6D83B2D4A80126250BE02445A89F7891E5B(Singleton_1_get_Instance_mD74FB6D83B2D4A80126250BE02445A89F7891E5B_RuntimeMethod_var);
@@ -23977,7 +24075,7 @@ IL_004b:
 		String_t* L_30 = L_29->___name;
 		NullCheck(L_26);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_26, L_30, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:190>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:195>
 		BoostManager_t54A54CA13FD1ECB77D16610593D1E3B98CE55777* L_31 = ((BoostManager_t54A54CA13FD1ECB77D16610593D1E3B98CE55777_StaticFields*)il2cpp_codegen_static_fields_for(BoostManager_t54A54CA13FD1ECB77D16610593D1E3B98CE55777_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -23988,7 +24086,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:192>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:197>
 		BoostManager_t54A54CA13FD1ECB77D16610593D1E3B98CE55777* L_33 = ((BoostManager_t54A54CA13FD1ECB77D16610593D1E3B98CE55777_StaticFields*)il2cpp_codegen_static_fields_for(BoostManager_t54A54CA13FD1ECB77D16610593D1E3B98CE55777_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_33);
 		BoostManager_TotalEffectiveCompute_mA96A21DD566F711392CF7314037CB0ABC9F3A76A(L_33, NULL);
@@ -23997,7 +24095,7 @@ IL_004b:
 
 IL_00cf:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:198>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:203>
 		il2cpp_codegen_runtime_class_init_inline(Singleton_1_t9257A8C7568CA506E35DB975FD30001737055564_il2cpp_TypeInfo_var);
 		DataManager_tE86238CF20D1A233E0ADDA21C619896E5F278275* L_34;
 		L_34 = Singleton_1_get_Instance_mD74FB6D83B2D4A80126250BE02445A89F7891E5B(Singleton_1_get_Instance_mD74FB6D83B2D4A80126250BE02445A89F7891E5B_RuntimeMethod_var);
@@ -24018,20 +24116,20 @@ IL_00cf:
 
 IL_00f4:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:203>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:208>
 		return (int32_t)(0);
 	}
 
 IL_00f6:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:172>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:177>
 		int32_t L_41 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_41, 1));
 	}
 
 IL_00fa:
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:172>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:177>
 		int32_t L_42 = V_0;
 		List_1_tFD977E9C06139FBE237D91F030E7AEFE3885FD76* L_43 = __this->___products;
 		NullCheck(L_43);
@@ -24043,10 +24141,10 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:207>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:212>
 		__this->___purchased = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___purchased), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:209>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:214>
 		return (int32_t)(0);
 	}
 }
@@ -24054,7 +24152,7 @@ IL_00fa:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_OnInitializeFailed_m2BE2454CF6A68ECB3BB82FD4B9BB0EB1D72D1AA4 (InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52* __this, int32_t ___0_error, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:214>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:219>
 		return;
 	}
 }
@@ -24062,7 +24160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_OnInitializeFailed_m2BE245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase_OnPurchaseFailed_m969726211DBB5F6993B52E21D441F3DCDF048054 (InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52* __this, Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* ___0_product, int32_t ___1_failureReason, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:218>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:223>
 		return;
 	}
 }
@@ -24076,7 +24174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InAppPurchase_IsInitialized_m958A378FECC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:222>
+		//<source_info:E:/Unity Games/IdleRes/Assets/Scripts/InAppPurchase.cs:227>
 		RuntimeObject* L_0 = ((InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_StaticFields*)il2cpp_codegen_static_fields_for(InAppPurchase_tF1514B9D9AC894562C0CD10D0A68BF2885028E52_il2cpp_TypeInfo_var))->___storeController;
 		if (!L_0)
 		{
@@ -24104,7 +24202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InAppPurchase__ctor_mDB57BE821C975AC290E
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 61754
+// Method Definition Index: 61764
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* SpawnPool_get_group_m70071D904C0856013BB5245A6F2C64C1C306F587_inline (SpawnPool_tFC3C63290E27B6FF3F696863981BE0A7B88A1D3A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24113,7 +24211,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 		return L_0;
 	}
 }
-// Method Definition Index: 55740
+// Method Definition Index: 55750
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -24126,7 +24224,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 55784
+// Method Definition Index: 55794
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24149,7 +24247,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 55757
+// Method Definition Index: 55767
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24172,7 +24270,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 79173
+// Method Definition Index: 79183
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdError_tA3BF7518349885A73447524367693A096B3DD1AE* AdErrorEventArgs_get_AdError_mDEDFB0E86705280AB359EAA0F2DA2ADD8E233EED_inline (AdErrorEventArgs_t1DBA3607C875036E80F31EE6AC928BB12D34D32A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24180,7 +24278,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdError_tA3BF7518349885A734475243
 		return L_0;
 	}
 }
-// Method Definition Index: 80894
+// Method Definition Index: 80904
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* AdValueEventArgs_get_AdValue_mF26131337D0F2C1EFB3F8148EAA183724E9F0226_inline (AdValueEventArgs_tFE4F97B850E2D4EF184678E9861479BA39B1299D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24188,7 +24286,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdValue_t3D87DDD4D06FAAA212BD2119
 		return L_0;
 	}
 }
-// Method Definition Index: 80891
+// Method Definition Index: 80901
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24196,7 +24294,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdValue_get_CurrencyCod
 		return L_0;
 	}
 }
-// Method Definition Index: 80889
+// Method Definition Index: 80899
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24204,7 +24302,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t AdValue_get_Value_mB60399
 		return L_0;
 	}
 }
-// Method Definition Index: 79178
+// Method Definition Index: 79188
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* AdFailedToLoadEventArgs_get_LoadAdError_m1024EE5A736DAF310FEE838CEBA91D921ACB919D_inline (AdFailedToLoadEventArgs_tE066F90E1243641A362F1F7BBACACA2EFE3C38D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24212,7 +24310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LoadAdError_t22654493F27C801157B8
 		return L_0;
 	}
 }
-// Method Definition Index: 80942
+// Method Definition Index: 80952
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Reward_get_Type_m52A71F274CBCCF3FEF1B0E37BEBA30304C8DE5DA_inline (Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24220,7 +24318,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Reward_get_Type_m52A71F
 		return L_0;
 	}
 }
-// Method Definition Index: 80944
+// Method Definition Index: 80954
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Reward_get_Amount_m2A4B7143299E26F5C7B36BA40D118A8F668CD734_inline (Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24234,7 +24332,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 55750
+// Method Definition Index: 55760
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24282,7 +24380,7 @@ IL_0040:
 		return L_19;
 	}
 }
-// Method Definition Index: 55758
+// Method Definition Index: 55768
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24305,7 +24403,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 55835
+// Method Definition Index: 55845
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24356,7 +24454,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 55857
+// Method Definition Index: 55867
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24367,7 +24465,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 55737
+// Method Definition Index: 55747
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_current, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24496,7 +24594,7 @@ IL_009b:
 		return L_43;
 	}
 }
-// Method Definition Index: 55772
+// Method Definition Index: 55782
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24533,7 +24631,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Math_Round_m0BD20E38C73A92
 		return L_2;
 	}
 }
-// Method Definition Index: 55836
+// Method Definition Index: 55846
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24584,7 +24682,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 77128
+// Method Definition Index: 77138
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* Product_get_metadata_mBACF5289A29D76CEB98A1CABD406840B8E4DF5C6_inline (Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24593,7 +24691,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t8C8138607558F5A5
 		return L_0;
 	}
 }
-// Method Definition Index: 77176
+// Method Definition Index: 77186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_localizedPriceString_m83C55E96B4BC39284D88F9BAAC64E60DFF7D408F_inline (ProductMetadata_t8C8138607558F5A57C08B6257B38FC2C77B32164* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24602,7 +24700,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_loc
 		return L_0;
 	}
 }
-// Method Definition Index: 77146
+// Method Definition Index: 77156
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductU5BU5D_t730BA37CF8A2E27DF6BB25D559268D5F1C8B028E* ProductCollection_get_all_m37D0E42451E883AAD88D44E70F5B2D5E56763ED7_inline (ProductCollection_tB918E64F4183B0EF135D05E7BC5835C6BBA50C69* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24611,7 +24709,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductU5BU5D_t730BA37CF8A2E27DF6
 		return L_0;
 	}
 }
-// Method Definition Index: 77187
+// Method Definition Index: 77140
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Product_get_availableToPurchase_m51BC3BC202FC9C961C758BFB56C541B5B22270D1_inline (Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.purchasing@4.9.4/Runtime/Purchasing/Product.cs:46>
+		bool L_0 = __this->___U3CavailableToPurchaseU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 77197
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* PurchaseEventArgs_get_purchasedProduct_m0CBC223B555D7D331959FF53E7EDCEBE5E304B56_inline (PurchaseEventArgs_t5203D89DD89FCB37A77025275F8AD1D71CF92A39* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24620,7 +24727,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Product_t8CB4C6F2541BB4560097D6E0
 		return L_0;
 	}
 }
-// Method Definition Index: 77126
+// Method Definition Index: 77136
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* Product_get_definition_m99F1AE5F43863A860DF8C2CFC049EF41560A4873_inline (Product_t8CB4C6F2541BB4560097D6E07ABCB3AD3BB6082E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24629,7 +24736,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductDefinition_t0ECCC323EC3E52
 		return L_0;
 	}
 }
-// Method Definition Index: 77160
+// Method Definition Index: 77170
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDefinition_get_id_mAC2DA1CF1E54C939E2099E9045B09CBAC6BAB99B_inline (ProductDefinition_t0ECCC323EC3E52DE3143F374262050ADCECB1517* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24736,7 +24843,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 55771
+// Method Definition Index: 55781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
