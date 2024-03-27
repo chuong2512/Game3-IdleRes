@@ -79,24 +79,9 @@ public class SellManagerPopup : MonoBehaviour
     {
         if (value)
         {
-            if (!QuangCao.Instance.GetRewardAvailable())
-            {
-                Notification.instance.Warning("No available video at the moment.");
-                Singleton<SoundManager>.Instance.Play("Notification");
-                return;
-            }
-
-            QuangCao.Instance.PhatQuangCao(delegate
-            {
-                this.onSellFull();
-                this.Cancel();
-                Tracking.instance.Ads_Impress("reward", "SellManager");
-            });
-        }
-        else
-        {
-            this.onSellHalf();
-            this.Cancel();
+            Notification.instance.Warning("No available video at the moment.");
+            Singleton<SoundManager>.Instance.Play("Notification");
+            return;
         }
     }
 

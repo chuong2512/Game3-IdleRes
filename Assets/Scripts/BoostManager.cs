@@ -56,7 +56,7 @@ public class BoostManager : MonoBehaviour
 
         public bool MoveNext()
         {
-            uint num = (uint) this._PC;
+            uint num = (uint)this._PC;
             this._PC = -1;
             switch (num)
             {
@@ -288,44 +288,24 @@ public class BoostManager : MonoBehaviour
 
     public void WatchAdBoost()
     {
-        if (!QuangCao.Instance.GetRewardAvailable())
-        {
-            Notification.instance.Warning("No available video at the moment.");
-            Singleton<SoundManager>.Instance.Play("Notification");
-            return;
-        }
-
-        if (QuangCao.Instance.GetRewardAvailable())
-        {
-            QuangCao.Instance.PhatQuangCao(() =>
-            {
-                this.boostData.boostRemaining += this.configuration.boost.boostIncomeDuration;
-                if (this.boostData.boostRemaining > this.configuration.boost.boostIncomeMaxDuration)
-                {
-                    this.boostData.boostRemaining = this.configuration.boost.boostIncomeMaxDuration;
-                }
-
-                this.TotalEffectiveCompute();
-                this.AdBoostPopupDisplay();
-                Tracking.instance.Ads_Impress("reward", "BoostIncome");
-            });
-            Tracking.instance.UI_Interaction("BoostPopup", "WatchAdsBoost");
-        }
+        Notification.instance.Warning("No available video at the moment.");
+        Singleton<SoundManager>.Instance.Play("Notification");
+        return;
 
         /*
-		MyAdvertisement.instance.ShowReward(delegate
-		{
-			this.boostData.boostRemaining += this.configuration.boost.boostIncomeDuration;
-			if (this.boostData.boostRemaining > this.configuration.boost.boostIncomeMaxDuration)
-			{
-				this.boostData.boostRemaining = this.configuration.boost.boostIncomeMaxDuration;
-			}
-			this.TotalEffectiveCompute();
-			this.AdBoostPopupDisplay();
-			Tracking.instance.Ads_Impress("reward", "BoostIncome");
-		});
-		Tracking.instance.UI_Interaction("BoostPopup", "WatchAdsBoost");
-		*/
+        MyAdvertisement.instance.ShowReward(delegate
+        {
+            this.boostData.boostRemaining += this.configuration.boost.boostIncomeDuration;
+            if (this.boostData.boostRemaining > this.configuration.boost.boostIncomeMaxDuration)
+            {
+                this.boostData.boostRemaining = this.configuration.boost.boostIncomeMaxDuration;
+            }
+            this.TotalEffectiveCompute();
+            this.AdBoostPopupDisplay();
+            Tracking.instance.Ads_Impress("reward", "BoostIncome");
+        });
+        Tracking.instance.UI_Interaction("BoostPopup", "WatchAdsBoost");
+        */
     }
 
     public void ShowPopup(bool value)
@@ -351,7 +331,7 @@ public class BoostManager : MonoBehaviour
 
     private void AdBoostPopupDisplay()
     {
-        float num = (float) this.configuration.boost.boostIncomeEffective;
+        float num = (float)this.configuration.boost.boostIncomeEffective;
         int num2 = this.configuration.boost.boostIncomeMaxDuration - this.boostData.boostRemaining;
         if (num2 > this.configuration.boost.boostIncomeDuration)
         {
@@ -366,10 +346,10 @@ public class BoostManager : MonoBehaviour
             GameUtilities.DateTime.Convert(num2)
         }));
         this.nextBoostFill.fillAmount =
-            (float) (this.boostData.boostRemaining + this.configuration.boost.boostIncomeDuration) /
-            (float) this.configuration.boost.boostIncomeMaxDuration;
-        this.currentBoostFill.fillAmount = (float) this.boostData.boostRemaining /
-                                           (float) this.configuration.boost.boostIncomeMaxDuration;
+            (float)(this.boostData.boostRemaining + this.configuration.boost.boostIncomeDuration) /
+            (float)this.configuration.boost.boostIncomeMaxDuration;
+        this.currentBoostFill.fillAmount = (float)this.boostData.boostRemaining /
+                                           (float)this.configuration.boost.boostIncomeMaxDuration;
     }
 
     private void OfflineTimeCalculate()

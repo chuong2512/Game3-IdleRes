@@ -55,7 +55,7 @@ public class OfflinePopup : MonoBehaviour
         }
 
         int num4 = (boost.boostRemaining != 0) ? this.config.boost.boostIncomeEffective : 1;
-        this.offlineCashGain = (double) num * idleCash * (double) num2 * (double) num3 * (double) num4;
+        this.offlineCashGain = (double)num * idleCash * (double)num2 * (double)num3 * (double)num4;
         GameUtilities.String.ToText(this.offlineCash, GameUtilities.Currencies.Convert(this.offlineCashGain));
         GameUtilities.String.ToText(this.rewardedCash, GameUtilities.Currencies.Convert(this.offlineCashGain * 2.0));
         this.popup.SetActive(true);
@@ -63,23 +63,14 @@ public class OfflinePopup : MonoBehaviour
 
     public void DoubleReward()
     {
-        if (!QuangCao.Instance.GetRewardAvailable())
-        {
-            Notification.instance.Warning("No available video at the moment.");
-            Singleton<SoundManager>.Instance.Play("Notification");
-            return;
-        }
-
-        QuangCao.Instance.PhatQuangCao(delegate
-        {
-            this.Close(2);
-            Tracking.instance.Ads_Impress("reward", "DoubleOfflineCoin");
-        });
+        Notification.instance.Warning("No available video at the moment.");
+        Singleton<SoundManager>.Instance.Play("Notification");
+        return;
     }
 
     public void Close(int factor)
     {
-        this.coinItemPool.Pool(this.targetCoinLabel, this.offlineCashGain * (double) factor);
+        this.coinItemPool.Pool(this.targetCoinLabel, this.offlineCashGain * (double)factor);
         this.popup.SetActive(false);
         this.offlineCashGain = 0.0;
     }

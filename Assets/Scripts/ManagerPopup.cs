@@ -89,7 +89,7 @@ public class ManagerPopup : Singleton<ManagerPopup>
         this.profileItem = new List<GameObject>();
         GameManager expr_10 = Singleton<GameManager>.Instance;
         expr_10.onCashChange =
-            (Action<double>) Delegate.Combine(expr_10.onCashChange, new Action<double>(this.OnCashChange));
+            (Action<double>)Delegate.Combine(expr_10.onCashChange, new Action<double>(this.OnCashChange));
         this.targetRestaurant = Singleton<DataManager>.Instance.database.targetRestaurant;
         this.profile = Singleton<DataManager>.Instance.database.restaurant[this.targetRestaurant].profile;
         this.tutorial_6.SetActive(!GameManager.IsDoneTutorial(6) && GameManager.IsDoneTutorial(5));
@@ -300,32 +300,10 @@ public class ManagerPopup : Singleton<ManagerPopup>
     {
         if (value)
         {
-            if (!QuangCao.Instance.GetRewardAvailable())
-            {
-                Notification.instance.Warning("No available video at the moment.");
-                Singleton<SoundManager>.Instance.Play("Notification");
-                return;
-            }
-
-            QuangCao.Instance.PhatQuangCao(delegate
-            {
-                this.HireManagerApply(value);
-                Tracking.instance.Ads_Impress("reward", "HireManager");
-            });
+            Notification.instance.Warning("No available video at the moment.");
+            Singleton<SoundManager>.Instance.Play("Notification");
+            return;
         }
-        else
-        {
-            this.HireManagerApply(value);
-            if (!GameManager.IsDoneTutorial(6) && GameManager.IsDoneTutorial(5))
-            {
-                GameManager.TutorialDone(6);
-                this.hireSpecialButton.SetActive(true);
-                this.tutorial_6.SetActive(false);
-                Tracking.instance.Tutorial_Done("Step6");
-            }
-        }
-
-        Tracking.instance.UI_Interaction("ManagerPopup", "HireManager");
     }
 
     private void OnCashChange(double cash)
