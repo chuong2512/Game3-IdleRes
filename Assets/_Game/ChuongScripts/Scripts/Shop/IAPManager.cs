@@ -7,12 +7,11 @@ using UnityEngine.Purchasing.Security;
 
 public class IAPKey
 {
-    public const string PACK1 = "mua_vang_goi_1";
-    public const string PACK2 = "mua_vang_goi_2";
-    public const string PACK3 = "mua_vang_goi_3";
-    public const string PACK4 = "mua_vang_goi_4";
-    public const string PACK5 = "mua_vang_goi_5";
-    public const string PACK6 = "mua_vang_goi_6";
+    public const string PACK1 = "fix_diamondpack_1";
+    public const string PACK2 = "fix_diamondpack_2";
+    public const string PACK3 = "fix_diamondpack_3";
+    public const string PACK4 = "fix_diamondpack_4";
+    public const string PACK5 = "fix_diamondpack_5";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
@@ -50,7 +49,6 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
         builder.AddProduct(IAPKey.PACK3, ProductType.Consumable);
         builder.AddProduct(IAPKey.PACK4, ProductType.Consumable);
         builder.AddProduct(IAPKey.PACK5, ProductType.Consumable);
-        builder.AddProduct(IAPKey.PACK6, ProductType.Consumable);
 
         UnityPurchasing.Initialize(this, builder);
     }

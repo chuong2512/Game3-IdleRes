@@ -62,7 +62,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311924, g: 0.38073963, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &9999993
 LightmapSettings:
@@ -133,7 +133,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 715303152}
-  - component: {fileID: 715303153}
   m_Layer: 0
   m_Name: QuangCao
   m_TagString: Untagged
@@ -156,18 +155,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &715303153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715303151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3076630179d91c4c867c167e7112372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1911680045
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +164,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911680047}
-  - component: {fileID: 1911680046}
   m_Layer: 0
   m_Name: SS
   m_TagString: Untagged
@@ -185,32 +171,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1911680046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911680045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eaf5b3e264374e4abffc768957253da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prodBuild: 1
-  testPurchaseResult: 0
-  onGetProductsDetails:
-    m_PersistentCalls:
-      m_Calls: []
-  onPayment:
-    m_PersistentCalls:
-      m_Calls: []
-  onConsume:
-    m_PersistentCalls:
-      m_Calls: []
-  onGetOwenedList:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &1911680047
 Transform:
   m_ObjectHideFlags: 0
@@ -294,6 +254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789880861211678028}
   - component: {fileID: 1789880861211678055}
+  - component: {fileID: 1789880861211678056}
   m_Layer: 0
   m_Name: IAPManager
   m_TagString: 
@@ -806,30 +767,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   products:
-  - name: diamondpack1
+  - name: diamondpack_1
     price: 0.99
-    appStoreID: diamondpack1
-    googlePlayID: diamondpack1
+    appStoreID: diamondpack_1
+    googlePlayID: diamondpack_1
     productType: 0
-  - name: diamondpack2
+  - name: diamondpack_2
     price: 4.99
-    appStoreID: diamondpack2
-    googlePlayID: diamondpack2
+    appStoreID: diamondpack_2
+    googlePlayID: diamondpack_2
     productType: 0
-  - name: diamondpack3
+  - name: diamondpack_3
     price: 9.99
-    appStoreID: diamondpack3
-    googlePlayID: diamondpack3
+    appStoreID: diamondpack_3
+    googlePlayID: diamondpack_3
     productType: 0
-  - name: diamondpack4
+  - name: diamondpack_4
     price: 24.99
-    appStoreID: diamondpack4
-    googlePlayID: diamondpack4
+    appStoreID: diamondpack_4
+    googlePlayID: diamondpack_4
     productType: 0
-  - name: diamondpack5
+  - name: diamondpack_5
     price: 49.99
-    appStoreID: diamondpack5
-    googlePlayID: diamondpack5
+    appStoreID: diamondpack_5
+    googlePlayID: diamondpack_5
     productType: 0
   - name: offlinepack
     price: 3.99
@@ -841,6 +802,18 @@ MonoBehaviour:
     appStoreID: onlinepack
     googlePlayID: onlinepack
     productType: 1
+--- !u!114 &1789880861211678056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789880861211678020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b1481bc5e82f24bb00198fc454b0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1789880861211678057
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -228,7 +228,10 @@ public class ShopManager : MonoBehaviour
 
     public void BuyPack(int index)
     {
-        InAppPurchase.instance.BuyProductID(this.packProduct[index].id, delegate
+        
+            
+        IAPManager.OnPurchaseSuccess =
+                  () => 
         {
             if (index != 0)
             {
@@ -253,7 +256,9 @@ public class ShopManager : MonoBehaviour
             }
 
             Tracking.instance.IAP(this.packProduct[index].id);
-        });
+        };
+        
+        IAPManager.Instance.BuyProductID(this.packProduct[index].id);
     }
 
     public void BuyCoin(int index)
@@ -300,15 +305,17 @@ public class ShopManager : MonoBehaviour
     }
 
     public void BuyDiamond(int index)
-    {
-        InAppPurchase.instance.BuyProductID(this.diamondProduct[index].id, delegate
+    {IAPManager.OnPurchaseSuccess = delegate
         {
             this.gameManager.SetDiamond(this.diamondProduct[index].value);
             Notification.instance.Warning("Received <color=#00FFDFFF>" + this.diamondProduct[index].value.ToString() +
                                           "</color> diamond");
             Singleton<SoundManager>.Instance.Play("Purchased");
             Tracking.instance.IAP(this.diamondProduct[index].id);
-        });
+        };
+        IAPManager.Instance.BuyProductID(this.diamondProduct[index].id);
+        
+        
     }
 
     public void ShowPopup(bool value)

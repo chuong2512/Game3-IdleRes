@@ -35,28 +35,6 @@ public class InAppPurchase : MonoBehaviour, IStoreListener
 
     private static Action<bool> __f__am_cache0;
 
-    private void Awake()
-    {
-        if (InAppPurchase.instance == null)
-        {
-            InAppPurchase.instance = this;
-        }
-        else if (InAppPurchase.instance != this)
-        {
-            UnityEngine.Object.Destroy(base.gameObject);
-        }
-
-        UnityEngine.Object.DontDestroyOnLoad(base.gameObject);
-    }
-
-    private void Start()
-    {
-        if (InAppPurchase.storeController == null)
-        {
-            this.InitializePurchasing();
-        }
-    }
-
     private void InitializePurchasing()
     {
         if (this.IsInitialized())
@@ -99,14 +77,6 @@ public class InAppPurchase : MonoBehaviour, IStoreListener
 
     public void BuyProductID(string productID, Action buyDone)
     {
-        SamsungIAP.Instance.StartPayment(productID, String.Empty, info =>
-        {
-            buyDone?.Invoke();
-            
-            SamsungIAP.Instance.ConsumePurchasedItems(productID, null);
-        });
-        return;
-
         if (!this.IsInitialized())
         {
             return;
