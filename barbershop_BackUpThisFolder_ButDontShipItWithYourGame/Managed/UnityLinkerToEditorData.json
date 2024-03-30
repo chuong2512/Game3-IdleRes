@@ -26,13 +26,17 @@
           },
           {
             "name": "Animator",
-            "scenes": [],
+            "scenes": [
+              "Assets/Game Resource/Scene/Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Game Resource/Scene/Game.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           },
