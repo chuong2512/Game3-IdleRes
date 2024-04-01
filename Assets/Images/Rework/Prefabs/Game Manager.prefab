@@ -301,27 +301,27 @@ MonoBehaviour:
     priceLabel: {fileID: 0}
     valueLabel: {fileID: 0}
   diamondProduct:
-  - id: diamondpack1
+  - id: fix_pack_1
     value: 250
     price: 0.99
     valueLabel: {fileID: 0}
     priceLabel: {fileID: 0}
-  - id: diamondpack2
+  - id: fix_pack_2
     value: 1500
     price: 4.99
     valueLabel: {fileID: 0}
     priceLabel: {fileID: 0}
-  - id: diamondpack3
+  - id: fix_pack_3
     value: 3500
     price: 9.99
     valueLabel: {fileID: 0}
     priceLabel: {fileID: 0}
-  - id: diamondpack4
+  - id: fix_pack_4
     value: 10000
     price: 24.99
     valueLabel: {fileID: 0}
     priceLabel: {fileID: 0}
-  - id: diamondpack5
+  - id: fix_pack_5
     value: 22000
     price: 49.99
     valueLabel: {fileID: 0}
@@ -589,9 +589,9 @@ MonoBehaviour:
   general:
     barrierEnabled: {fileID: 0}
     barrierDisable: {fileID: 0}
-    buttonEnableSprite: {fileID: 21300012, guid: eee375ad24ea43898be1d5c2825b4e00,
+    buttonEnableSprite: {fileID: 21300000, guid: 694c70bc6437951429e592b69e2fe736,
       type: 3}
-    buttonDisableSprite: {fileID: 21300016, guid: eee375ad24ea43898be1d5c2825b4e00,
+    buttonDisableSprite: {fileID: 21300000, guid: df8cd748c53d31943bed1d2e58e6b407,
       type: 3}
   enable:
     unlockCashButton: {fileID: 0}

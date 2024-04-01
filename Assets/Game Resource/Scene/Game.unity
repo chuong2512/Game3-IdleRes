@@ -35890,27 +35890,27 @@ PrefabInstance:
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
       propertyPath: diamondProduct.Array.data[0].id
-      value: fix_diamondpack_1
+      value: fix_pack_1
       objectReference: {fileID: 0}
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
       propertyPath: diamondProduct.Array.data[1].id
-      value: fix_diamondpack_2
+      value: fix_pack_2
       objectReference: {fileID: 0}
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
       propertyPath: diamondProduct.Array.data[2].id
-      value: fix_diamondpack_3
+      value: fix_pack_3
       objectReference: {fileID: 0}
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
       propertyPath: diamondProduct.Array.data[3].id
-      value: fix_diamondpack_4
+      value: fix_pack_4
       objectReference: {fileID: 0}
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
       propertyPath: diamondProduct.Array.data[4].id
-      value: fix_diamondpack_5
+      value: fix_pack_5
       objectReference: {fileID: 0}
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
