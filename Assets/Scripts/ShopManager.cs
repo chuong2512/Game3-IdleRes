@@ -100,7 +100,7 @@ public class ShopManager : MonoBehaviour
         internal void __m__0()
         {
             this._this.gameManager.SetDiamond(-this._this.coinProduct[this.index].price);
-            double cash = this._this.GetInstantCash() * (double) this._this.coinProduct[this.index].value;
+            double cash = this._this.GetInstantCash() * (double)this._this.coinProduct[this.index].value;
             this._this.coinItemPool.Pool(this._this.coinTargetLabel, cash);
             Singleton<SoundManager>.Instance.Play("Purchased");
         }
@@ -195,7 +195,7 @@ public class ShopManager : MonoBehaviour
         for (int i = 0; i < this.coinProduct.Length; i++)
         {
             GameUtilities.String.ToText(this.coinProduct[i].valueLabel,
-                GameUtilities.Currencies.Convert(this.GetInstantCash() * (double) this.coinProduct[i].value));
+                GameUtilities.Currencies.Convert(this.GetInstantCash() * (double)this.coinProduct[i].value));
             GameUtilities.String.ToText(this.coinProduct[i].priceLabel, this.coinProduct[i].price.ToString());
         }
     }
@@ -228,36 +228,34 @@ public class ShopManager : MonoBehaviour
 
     public void BuyPack(int index)
     {
-        
-            
         IAPManager.OnPurchaseSuccess =
-                  () => 
-        {
-            if (index != 0)
+            () =>
             {
-                if (index == 1)
+                if (index != 0)
+                {
+                    if (index == 1)
+                    {
+                        Singleton<DataManager>.Instance.database.nonConsume.Add(this.packProduct[index].id);
+                        this.boostManager.TotalEffectiveCompute();
+                        this.packProduct[index].target.SetActive(false);
+                    }
+                }
+                else
                 {
                     Singleton<DataManager>.Instance.database.nonConsume.Add(this.packProduct[index].id);
-                    this.boostManager.TotalEffectiveCompute();
                     this.packProduct[index].target.SetActive(false);
                 }
-            }
-            else
-            {
-                Singleton<DataManager>.Instance.database.nonConsume.Add(this.packProduct[index].id);
-                this.packProduct[index].target.SetActive(false);
-            }
 
-            Singleton<SoundManager>.Instance.Play("Purchased");
-            Notification.instance.Warning("Purchased Completed");
-            if (Singleton<DataManager>.Instance.database.nonConsume.Count == this.packProduct.Length)
-            {
-                this.packHeader.SetActive(false);
-            }
+                Singleton<SoundManager>.Instance.Play("Purchased");
+                Notification.instance.Warning("Purchased Completed");
+                if (Singleton<DataManager>.Instance.database.nonConsume.Count == this.packProduct.Length)
+                {
+                    this.packHeader.SetActive(false);
+                }
 
-            Tracking.instance.IAP(this.packProduct[index].id);
-        };
-        
+                Tracking.instance.IAP(this.packProduct[index].id);
+            };
+
         IAPManager.Instance.BuyProductID(this.packProduct[index].id);
     }
 
@@ -273,7 +271,7 @@ public class ShopManager : MonoBehaviour
         Notification.instance.Confirm(delegate
             {
                 this.gameManager.SetDiamond(-this.coinProduct[index].price);
-                double cash = this.GetInstantCash() * (double) this.coinProduct[index].value;
+                double cash = this.GetInstantCash() * (double)this.coinProduct[index].value;
                 this.coinItemPool.Pool(this.coinTargetLabel, cash);
                 Singleton<SoundManager>.Instance.Play("Purchased");
             },
@@ -305,7 +303,8 @@ public class ShopManager : MonoBehaviour
     }
 
     public void BuyDiamond(int index)
-    {IAPManager.OnPurchaseSuccess = delegate
+    {
+        IAPManager.OnPurchaseSuccess = delegate
         {
             this.gameManager.SetDiamond(this.diamondProduct[index].value);
             Notification.instance.Warning("Received <color=#00FFDFFF>" + this.diamondProduct[index].value.ToString() +
@@ -314,8 +313,6 @@ public class ShopManager : MonoBehaviour
             Tracking.instance.IAP(this.diamondProduct[index].id);
         };
         IAPManager.Instance.BuyProductID(this.diamondProduct[index].id);
-        
-        
     }
 
     public void ShowPopup(bool value)

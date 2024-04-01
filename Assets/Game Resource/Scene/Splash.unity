@@ -253,7 +253,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1789880861211678028}
-  - component: {fileID: 1789880861211678055}
   - component: {fileID: 1789880861211678056}
   m_Layer: 0
   m_Name: IAPManager
@@ -754,54 +753,6 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
---- !u!114 &1789880861211678055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789880861211678020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c3b16b566f2b5247aa7f131781e35a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  products:
-  - name: diamondpack_1
-    price: 0.99
-    appStoreID: diamondpack_1
-    googlePlayID: diamondpack_1
-    productType: 0
-  - name: diamondpack_2
-    price: 4.99
-    appStoreID: diamondpack_2
-    googlePlayID: diamondpack_2
-    productType: 0
-  - name: diamondpack_3
-    price: 9.99
-    appStoreID: diamondpack_3
-    googlePlayID: diamondpack_3
-    productType: 0
-  - name: diamondpack_4
-    price: 24.99
-    appStoreID: diamondpack_4
-    googlePlayID: diamondpack_4
-    productType: 0
-  - name: diamondpack_5
-    price: 49.99
-    appStoreID: diamondpack_5
-    googlePlayID: diamondpack_5
-    productType: 0
-  - name: offlinepack
-    price: 3.99
-    appStoreID: offlinepack
-    googlePlayID: offlinepack
-    productType: 1
-  - name: onlinepack
-    price: 7.99
-    appStoreID: onlinepack
-    googlePlayID: onlinepack
-    productType: 1
 --- !u!114 &1789880861211678056
 MonoBehaviour:
   m_ObjectHideFlags: 0
