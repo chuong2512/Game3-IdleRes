@@ -179,14 +179,14 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
 
                 if (Application.platform == RuntimePlatform.Android)
                 {
-                    var googleReceipt = (GooglePlayReceipt)productReceipt;
+                    var googleReceipt = (GooglePlayReceipt) productReceipt;
                     var pId = googleReceipt.productID;
                     var metadata = storeController.products.WithID(pId).metadata;
                 }
 
                 if (Application.platform == RuntimePlatform.IPhonePlayer)
                 {
-                    var appleReceipt = (AppleInAppPurchaseReceipt)productReceipt;
+                    var appleReceipt = (AppleInAppPurchaseReceipt) productReceipt;
                     var pId = appleReceipt.productID;
                     var metadata = storeController.products.WithID(pId).metadata;
                 }
