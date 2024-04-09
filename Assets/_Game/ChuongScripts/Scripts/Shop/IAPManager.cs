@@ -7,11 +7,11 @@ using UnityEngine.Purchasing.Security;
 
 public class IAPKey
 {
-    public const string PACK1 = "fix_pack_1";
-    public const string PACK2 = "fix_pack_2";
-    public const string PACK3 = "fix_pack_3";
-    public const string PACK4 = "fix_pack_4";
-    public const string PACK5 = "fix_pack_5";
+    public const string PACK1 = "gem_pack_1";
+    public const string PACK2 = "gem_pack_2";
+    public const string PACK3 = "gem_pack_3";
+    public const string PACK4 = "gem_pack_4";
+    public const string PACK5 = "gem_pack_5";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
