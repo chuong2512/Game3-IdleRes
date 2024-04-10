@@ -219,6 +219,7 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
 
     private void OnPurchaseComplete(string productId)
     {
+        Debug.Log($"Purchase success {productId}");
         OnPurchaseSuccess?.Invoke();
     }
 

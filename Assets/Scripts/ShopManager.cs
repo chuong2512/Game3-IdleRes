@@ -306,12 +306,14 @@ public class ShopManager : MonoBehaviour
     {
         IAPManager.OnPurchaseSuccess = delegate
         {
+            Debug.Log("------------------------------Success in Button");
             this.gameManager.SetDiamond(this.diamondProduct[index].value);
             Notification.instance.Warning("Received <color=#00FFDFFF>" + this.diamondProduct[index].value.ToString() +
                                           "</color> diamond");
             Singleton<SoundManager>.Instance.Play("Purchased");
             Tracking.instance.IAP(this.diamondProduct[index].id);
         };
+        Debug.Log("----------------------------------OnBuy");
         IAPManager.Instance.BuyProductID(this.diamondProduct[index].id);
     }
 
