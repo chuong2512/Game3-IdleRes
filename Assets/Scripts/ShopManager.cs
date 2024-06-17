@@ -168,6 +168,7 @@ public class ShopManager : MonoBehaviour
         this.LoadDefaultDiamondProductPrice();
         this.LoadDefaultBoostProductPrice();
         this.LoadDefaultCoinProductPrice();
+        this.packHeader.SetActive(false);
     }
 
     private void LoadDefaultPackProductPrice()

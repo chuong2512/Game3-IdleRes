@@ -370,8 +370,8 @@ Camera:
   m_GameObject: {fileID: 1789880861211678022}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.1921569, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.53889287, g: 0.65677404, b: 0.6603774, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -754,35 +754,20 @@ MonoBehaviour:
     googlePlayID: diamondpack1
     productType: 0
   - name: diamondpack2
-    price: 4.99
+    price: 2.99
     appStoreID: diamondpack2
     googlePlayID: diamondpack2
     productType: 0
   - name: diamondpack3
-    price: 9.99
+    price: 4.99
     appStoreID: diamondpack3
     googlePlayID: diamondpack3
     productType: 0
   - name: diamondpack4
-    price: 24.99
+    price: 9.99
     appStoreID: diamondpack4
     googlePlayID: diamondpack4
     productType: 0
-  - name: diamondpack5
-    price: 49.99
-    appStoreID: diamondpack5
-    googlePlayID: diamondpack5
-    productType: 0
-  - name: offlinepack
-    price: 3.99
-    appStoreID: offlinepack
-    googlePlayID: offlinepack
-    productType: 1
-  - name: onlinepack
-    price: 7.99
-    appStoreID: onlinepack
-    googlePlayID: onlinepack
-    productType: 1
 --- !u!114 &1789880861211678057
 MonoBehaviour:
   m_ObjectHideFlags: 0
