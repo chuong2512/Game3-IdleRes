@@ -5406,7 +5406,7 @@ PrefabInstance:
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
       propertyPath: diamondProduct.Array.data[1].price
-      value: 3.99
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 5147472011647667858, guid: 4dd152c7f68e33348a77a097d60d0477,
         type: 3}
